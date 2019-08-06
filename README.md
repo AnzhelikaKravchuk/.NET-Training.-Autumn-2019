@@ -1,6 +1,6 @@
 # .NET-Training.-Autumn-2019
 
-## Self-study
+## Self-study stage
 
  
 | Task | Solution Status | Solution Link | MS Test Status | MS Test Link | NUnit Tests Status | NUnit Tests Link | Additional/Comments |
