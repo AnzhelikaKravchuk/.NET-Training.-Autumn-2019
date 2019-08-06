@@ -14,9 +14,9 @@
 | [Lections Day 8](https://drive.google.com/drive/folders/1jpw3yZPMepPCP1LYpsi_2FXcQ7m8whpT) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|
 | [Lections Day 9](https://drive.google.com/drive/folders/1z9dWTY0spT6MI4SAnlUxPIEqraqMlJRG) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|
 | [Lections Day 10](https://drive.google.com/drive/folders/1cwOLIdvQKFoEC0MMZrcye7gOXvYPY_w1) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|
-| [Проектирование СУБД | Технострим (Модуль 1)](https://www.youtube.com/watch?v=R21v8SoIsiY&list=PLrCZzMib1e9pq_sbw7ZEcEU3Yyz1AvE--&index=2&t=929s) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|
-| [Проектирование СУБД | Технострим (Модуль 2)](https://www.youtube.com/watch?v=7t9hLFtN77U&list=PLrCZzMib1e9pq_sbw7ZEcEU3Yyz1AvE--&index=2) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|
-| [Проектирование СУБД | Технострим (Модуль 3)](https://www.youtube.com/watch?v=fcNhZDWUGDM&list=PLrCZzMib1e9pq_sbw7ZEcEU3Yyz1AvE--&index=3) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|
+| [Проектирование СУБД | Технострим | Модуль 1](https://www.youtube.com/watch?v=R21v8SoIsiY&list=PLrCZzMib1e9pq_sbw7ZEcEU3Yyz1AvE--&index=2&t=929s) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|
+| [Проектирование СУБД | Технострим | Модуль 2](https://www.youtube.com/watch?v=7t9hLFtN77U&list=PLrCZzMib1e9pq_sbw7ZEcEU3Yyz1AvE--&index=2) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|
+| [Проектирование СУБД | Технострим | Модуль 3](https://www.youtube.com/watch?v=fcNhZDWUGDM&list=PLrCZzMib1e9pq_sbw7ZEcEU3Yyz1AvE--&index=3) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|
  
 ---
 
