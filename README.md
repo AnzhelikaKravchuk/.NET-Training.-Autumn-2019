@@ -1,6 +1,6 @@
 # .NET-Training.-Autumn-2019
 
-## Self-study stage
+## Self-study stage (05.08.2019 - 15.09.2019)
  
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
