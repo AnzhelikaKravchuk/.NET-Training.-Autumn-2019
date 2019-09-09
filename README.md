@@ -31,6 +31,14 @@
 - Обязательным требованием для любой выполняемой задачи является ее соответствие [Settings.StyleCop](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%201).
 - Обязательным требованием для любой выполняемой задачи является наличие [XML-комментариев](https://docs.microsoft.com/ru-ru/dotnet/csharp/programming-guide/xmldoc/) во всех библиотеках классов в коде.
 
+---
+
+#### [Не стесняйтесь участвовать в создании репозиторя вопросов и ответов!](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/.Net-Interview-Questions)
+
+![](https://github.com/AnzhelikaKravchuk/Materials/blob/master/Pictures/Q%26A.png)
+
+---
+
 ##  Stage 1. Self-study (05.08.2019 - 15.09.2019)
  
 | Task | Task Status | Additional/Comments |
