@@ -61,7 +61,7 @@
 
 ##  Stage 2. (16.09.2019 - 30.11.2019)
 
-### Day 1. 16.09.2019	
+## Day 1. 16.09.2019	
 #### Читать
 - [Что такое CLR – Часть 1](http://kavayii.blogspot.com.by/2010/08/clr.html)
 - [Что такое CLR – Часть 2](http://kavayii.blogspot.com.by/2010/08/clr-2.html)
