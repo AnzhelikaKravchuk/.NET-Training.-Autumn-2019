@@ -1,6 +1,37 @@
 # .NET-Training.-Autumn-2019
 
-## Self-study stage (05.08.2019 - 15.09.2019)
+Репозиторий внешнего тренинга "ASP.NET MVC Web Applications. Q3 2019"
+
+## Продолжительность тренинга 16.09.2019 - 30.11.2019
+
+### Место проведения занятий - Купревича 1-5,  комната 224.
+
+### Дни и время проведения занятий
+- Понедельник 8.30 - 12.30
+- Вторник 8.30 - 12.30
+- Четверг 8.30 - 12.30
+- Пятница (резерв) 8.30 - 12.30 (возможно вебинар)
+
+## Дополнительная информация
+**[EPAM RD Training "DEVELOPING ASP.NET MVC WEB APPLICATIONS" Repository (C# and .NET Framework Basics part) by .NET Lab.](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules)**
+
+- *Выслать на электронный адрес anzhelika.kravchuk@gmail.com письмо с указанием своего gmail-acc (названного по шаблону firstname.lastname@gmail.com (в случае существования "адекватного" аккаунта не обязательно)).*
+- *Установить IDE Visual Studio Community 2019 (**англоязычную версию**) или [IDE](https://www.slant.co/topics/4118/~c-ides).*
+- *Установить [StyleCop](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%201)*.
+- *Установить [LINQPad](http://www.linqpad.net/)*.
+
+### Требования к выполнению заданий.
+- Задания выполняются **самостоятельно** (плагиат при выполнении заданий карается вплоть до отчисления с тенинга).
+- Логика решения задачи помещается в проект типа Class Library в рамках Solution-а, который называется по шаблону **NET.Autumn.2019.Lastname.N** (где N- номер дня выполняемого задания в формате а-ля 01, 02, … 12).
+- Тестирование решенной задачи выполняется в рамках вышеуказанного Solution-а с использованием консольного приложения или тестовых фреймворков Microsoft Unit Testing Framework или NUnit (*оговаривается для каждого задания*).
+- Выполненные задания выкладываются на github не позднее указанного срока. 
+- На github-e соблюдать следующую [структуру](https://github.com/AnzhelikaKravchuk/Training-Repository-Template)
+  - следуйте правилам именования в репозитории;
+  - обновляйте файл readme.md корневой папки репозитория.
+- Обязательным требованием для любой выполняемой задачи является ее соответствие [Settings.StyleCop](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%201).
+- Обязательным требованием для любой выполняемой задачи является наличие [XML-комментариев](https://docs.microsoft.com/ru-ru/dotnet/csharp/programming-guide/xmldoc/) во всех библиотеках классов в коде.
+
+##  Stage 1. Self-study (05.08.2019 - 15.09.2019)
  
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
