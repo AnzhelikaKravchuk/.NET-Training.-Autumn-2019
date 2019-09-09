@@ -10,7 +10,7 @@
 - Понедельник 8.30 - 12.30
 - Вторник 8.30 - 12.30
 - Четверг 8.30 - 12.30
-- Пятница (резерв) 8.30 - 12.30 (возможно, вебинар)
+- Пятница (резерв, возможно, вебинар) 8.30 - 12.30
 
 ## Дополнительная информация
 **[EPAM RD Training "DEVELOPING ASP.NET MVC WEB APPLICATIONS" Repository (C# and .NET Framework Basics part) by .NET Lab.](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules)**
