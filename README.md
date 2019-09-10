@@ -78,11 +78,11 @@
 ### Презентация 
 [version in progress](https://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/blob/master/Day%201.%2016.09.2019/Introduction%20to%20the%20.NET%20(2019%20in%20progress).pdf)
 
-### Задачи (deadline - )
+#### Задачи (deadline - )
 
 ***При выполнение задач данного дня и дней до темы "Делегаты" и "LINQ" запрещено использование типа делагат и LINQ-запросов в библиотеках классов.***
 
-### Task Status
+#### Task Status
 
 | Task | Solution Status | Solution Link | MS Test Status | MS Test Link | NUnit Tests Status | NUnit Tests Link | Additional/Comments |
 | -------- | -------- | --------| --------|  -------- |  -------- | -------- | -------- |    
@@ -104,7 +104,7 @@
 - [Basic Coding in C#](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/tree/master/M2.%20Basic%20Coding%20in%20C%23)
 - [C# Unit Testing](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/tree/master/M5.%20C%23%20Unit%20Testing)
 
-### Задачи
+#### Задачи
 1. **(deadline - ##.09.2019, ##.##)** Даны два целых знаковых четырехбайтовых числа и две позиции битов i и j (i<=j). Реализовать алгоритм вставки первых (j - i + 1) битов второго числа в первое так, чтобы биты второго числа занимали позиции с бита i по бит j (биты нумеруются справа налево). Решение оформить  в виде статического метода InsertNumberIntoAnother статического класса NumbersExtension. Разработать модульные тесты (NUnit и MS Unit Test - ([DDT](https://msdn.microsoft.com/en-us/library/ms182527.aspx)))) для тестирования метода. (Ниже схема-пояснение к алгоритму). Примерные тест-кейсы
 
         [TestCase(2728, 655, 3, 8, ExpectedResult = 2680)]
@@ -135,7 +135,7 @@
         ArrayExtension.FilterArrayByKey(null, 0) => ArgumentNullException
         ...
         
-### Task Status
+#### Task Status
 
 | Task | Solution Status | Solution Link | MS Test Status | MS Test Link | NUnit Tests Status | NUnit Tests Link | Additional/Comments |
 | -------- | -------- | --------| --------|  -------- |  -------- | -------- | -------- |    
