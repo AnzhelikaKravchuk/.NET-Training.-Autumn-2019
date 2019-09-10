@@ -12,7 +12,7 @@
 - Четверг 8.30 - 12.30
 - Пятница (возможен, вебинар) 8.30 - 12.30
 
-## Дополнительная информация
+### Дополнительная информация
 **[EPAM RD Training "DEVELOPING ASP.NET MVC WEB APPLICATIONS" Repository (C# and .NET Framework Basics part) by .NET Lab.](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules)**
 **TODO**
 - *Выслать на электронный адрес anzhelika.kravchuk@gmail.com письмо с указанием своего gmail-acc (названного по шаблону firstname.lastname@gmail.com (в случае существования "адекватного" аккаунта не обязательно)).*
