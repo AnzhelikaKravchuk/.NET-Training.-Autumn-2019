@@ -79,7 +79,14 @@
 [version in progress](https://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/blob/master/Day%201.%2016.09.2019/Introduction%20to%20the%20.NET%20(2019%20in%20progress).pdf)
 
 ### Задачи (deadline - )
-**При выполнение задач данного дня и дней до темы "Делегаты" и "LINQ" запрещено использование типа делагат и LINQ-запросов в библиотеках классов.**
+
+***При выполнение задач данного дня и дней до темы "Делегаты" и "LINQ" запрещено использование типа делагат и LINQ-запросов в библиотеках классов.***
+
+| Task | Solution Status | Solution Link | MS Test Status | MS Test Link | NUnit Tests Status | NUnit Tests Link | Additional/Comments |
+| -------- | -------- | --------| --------|  -------- |  -------- | -------- | -------- |    
+| 1 | ![Done](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png) | [*Link to .cs-file here*](https://github.com/AnzhelikaKravchuk/Training-Repository-Template/blob/master/NET1.Autumn.2019.LastName.01/TraningExtensions/SomeLogicHere.cs) | ![Done](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png) | [*Link to MS Tests - cs-file here*](#) | ![In progress](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-inprogress.png) | [*Link to NUnit Tests - cs-file here*](https://github.com/AnzhelikaKravchuk/Training-Repository-Template/blob/master/NET1.Autumn.2019.LastName.01/TraningExtensions.Tests/SomeTestsForLogicHere.cs) | [*Link to Tests Generator code - cs-file - Optional*](#)
+| 2 | ![Done](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png) | [*Link to Assembly - dll-file here*](#) | ![Done](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png) | [Link to report.md-file here*](#) |  |  | 
+| 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to docunemtation - chm-file here*](#) |  |  |  |  | 
 
 ---
 
