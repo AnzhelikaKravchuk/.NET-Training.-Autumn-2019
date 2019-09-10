@@ -105,7 +105,7 @@
 - [C# Unit Testing](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/tree/master/M5.%20C%23%20Unit%20Testing)
 
 #### Задачи
-1. **(deadline - ##.09.2019, ##.##)** Даны два целых знаковых четырехбайтовых числа и две позиции битов i и j (i<=j). Реализовать алгоритм вставки первых (j - i + 1) битов второго числа в первое так, чтобы биты второго числа занимали позиции с бита i по бит j (биты нумеруются справа налево). Решение оформить  в виде статического метода *InsertNumberIntoAnother* статического класса *NumbersExtension*. Разработать модульные тесты (NUnit и MS Unit Test - ([DDT](https://msdn.microsoft.com/en-us/library/ms182527.aspx)))) для тестирования метода. (Ниже схема-пояснение к алгоритму). Примерные тест-кейсы
+1. **(deadline - ##.09.2019, ##.##)** Даны два целых знаковых четырехбайтовых числа и две позиции битов i и j (i<=j). Реализовать алгоритм вставки первых (j - i + 1) битов второго числа в первое так, чтобы биты второго числа занимали позиции с бита i по бит j (биты нумеруются справа налево). Решение оформить  в виде статического метода **InsertNumberIntoAnother** статического класса **NumbersExtension**. Разработать модульные тесты (NUnit и MS Unit Test - ([DDT](https://msdn.microsoft.com/en-us/library/ms182527.aspx)))) для тестирования метода. (Ниже схема-пояснение к алгоритму). Примерные тест-кейсы
 
         [TestCase(2728, 655, 3, 8, ExpectedResult = 2680)]
         [TestCase(554216104, 15, 0, 31, ExpectedResult = 15)]
@@ -122,9 +122,9 @@
         ...
         
 ![Схема к алгоритму](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/blob/master/Pictures/Scheme.png)    
-2. **(deadline - ##.09.2019, ##.##)** Реализовать *рекурсивный* алгоритм поиска максимального элемента в неотсортированном целочисленом массиве. Решение оформить  в виде статического метода *FindMximumItem* статического класса *ArrayExtension*. Разработать модульные тесты NUnit для тестирования метода. Рассмотреть вариант тестирования массивов большой размерности, элементы которых сгенерированны случайным образом.  
-3. **(deadline - ##.09.2019, ##.##)** Реализовать алгоритм поиска в целочисленном массиве индекса элемента, для которого сумма элементов слева и сумма элементов справа равны. Решение оформить  в виде статического метода *FindBalanceIndex* статического класса *ArrayExtension* (п. 2). Если такого элемента не существует вернуть null. Разработать модульные тесты NUnit.   
-4. **(deadline - ##.09.2019, ##.##)** Реализовать метод, который принимает массив целых чисел и фильтрует его таким образом, чтобы на выходе был получен новый массив, состоящий только из элементов, которые содержат заданную цифру. (*LINQ-запросы не использовать!*) В случае, если таких элементов нет, вернуть пустой массив. Решение оформить  в виде статического метода *FilterArrayByKey* статического класса *ArrayExtension* (п. 2). Например, для цифры 7, метод *FilterArrayByKey* для набора {7,1,2,3,4,5,6,7,68,69,70,15,17} возвращает набор {7,7,70,17}. Разработать модульные тесты NUnit и MS Unit Test для тестирования метода. Примерные тест-кейсы 
+2. **(deadline - ##.09.2019, ##.##)** Реализовать *рекурсивный* алгоритм поиска максимального элемента в неотсортированном целочисленом массиве. Решение оформить  в виде статического метода **FindMximumItem** статического класса **ArrayExtension**. Разработать модульные тесты NUnit для тестирования метода. Рассмотреть вариант тестирования массивов большой размерности, элементы которых сгенерированны случайным образом.  
+3. **(deadline - ##.09.2019, ##.##)** Реализовать алгоритм поиска в целочисленном массиве индекса элемента, для которого сумма элементов слева и сумма элементов справа равны. Решение оформить  в виде статического метода **FindBalanceIndex** статического класса **ArrayExtension** (п. 2). Если такого элемента не существует вернуть null. Разработать модульные тесты NUnit.   
+4. **(deadline - ##.09.2019, ##.##)** Реализовать метод, который принимает массив целых чисел и фильтрует его таким образом, чтобы на выходе был получен новый массив, состоящий только из элементов, которые содержат заданную цифру. (*LINQ-запросы не использовать!*) В случае, если таких элементов нет, вернуть пустой массив. Решение оформить  в виде статического метода **FilterArrayByKey** статического класса **ArrayExtension** (п. 2). Например, для цифры 7, метод **FilterArrayByKey** для набора {7,1,2,3,4,5,6,7,68,69,70,15,17} возвращает набор {7,7,70,17}. Разработать модульные тесты NUnit и MS Unit Test для тестирования метода. Примерные тест-кейсы 
         
         [TestCase(new[] { 2212332, 1405644, -1236674 }, 0, ExpectedResult = new[] { 1405644 })]
         [TestCase(new[] { 53, 71, -24, 1001, 32, 1005 }, 2, ExpectedResult = new[] { -24, 32 })]
@@ -146,5 +146,37 @@
 ---
 
 ### Day 3. 19.09.2019	
+#### Читать
+- [C# 5.0 Unleashed. Bart De Smet. Sams Publishing. 2013](https://drive.google.com/drive/u/0/folders/0B7WmjuqYed3Aeko0MzNYZWtVOUk) Chapter 10: Methods
 
+#### Материалы
+- [Basic Coding in C#](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/tree/master/M2.%20Basic%20Coding%20in%20C%23)
+- [Methods in details](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/tree/master/M4.%20Methods%20in%20details)
+
+#### Задачи (deadline - ##.09.2019, ##.##)
+1. Реализовать алгоритм, позволяющий вычислять корень **n**-ой степени ( n ∈ N ) из вещественного числа **а** методом Ньютона с заданной точностью. Решение оформить  в виде статического метода **FindNthRoot** статического класса **MathExtension**.
+    - Разработать модульные тесты. Примерные тест кейсы:
+      - [TestCase(1, 5, 0.0001,ExpectedResult = 1)]
+      - [TestCase(8, 3, 0.0001,ExpectedResult = 2)]
+      - [TestCase(0.001, 3, 0.0001,ExpectedResult = 0.1)]
+      - [TestCase(0.04100625,4 , 0.0001, ExpectedResult = 0.45)]
+      - [TestCase(8, 3, 0.0001, ExpectedResult = 2)]
+      - [TestCase(0.0279936, 7, 0.0001, ExpectedResult = 0.6)]
+      - [TestCase(0.0081, 4, 0.1, ExpectedResult = 0.3)]
+      - [TestCase(-0.008, 3, 0.1, ExpectedResult = -0.2)]
+      - [TestCase(0.004241979, 9, 0.00000001, ExpectedResult = 0.545)]
+      - [a = -0.01, n = 2, accurancy = 0.0001] <- ArgumentException
+      - [a = 0.001, n = -2, accurancy = 0.0001] <- ArgumentException
+      - [a = 0.01, n = 2, accurancy = -1] <- ArgumentException	
+      - ...
+2. Реализовать метод, который для данного положительное целого число находит ближайшее наименьшее целое, состоящее из цифр исходного числа, если такое число существует. Решение оформить  в виде статического метода **FindPreviousLessThan** статического класса **NumbersExtension** (Day 1. п. 2). Разработать модульные тесты для тестирования метода.  
+3. В статический класс **MathExtension** (п. 1) добавть **GcdEuclidean**-методы которого позволяют выполнять вычисления НОД по алгоритму Евклида для двух, трех и т.д. целых чисел (http://en.wikipedia.org/wiki/Euclidean_algorithm , https://habrahabr.ru/post/205106/, https://habrahabr.ru/post/205106/). Добавить методы, которые помимо вычисления НОД, предоставляют дополнительную возможность определения значение времени, необходимое для выполнения расчета. К разработанному классу добавить **GcdStein**-методы, реализующие алгоритм Стейна (бинарный алгоритм Евклида) для расчета НОД двух, трех и т.д. целых чисел (http://en.wikipedia.org/wiki/Binary_GCD_algorithm, https://habrahabr.ru/post/205106/ ), а также методы,  предоставляющие дополнительную возможность определения значение времени, необходимое для выполнения расчета. Рассмотреть различные возможности реализации методов, возвращающих время вычисления НОД. Разработать модульные тесты.
+
+#### Task Status
+
+| Task | Solution Status | Solution Link | MS Test Status | MS Test Link | NUnit Tests Status | NUnit Tests Link | Additional/Comments |
+| -------- | -------- | --------| --------|  -------- |  -------- | -------- | -------- |    
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to .cs-file here*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to MS Tests - cs-file here*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to NUnit Tests - cs-file here*](#) |
+| 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to .cs-file here*](#) |  |  | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to NUnit Tests - cs-file here*](#) |
+| 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to .cs-file here*](#) |  |  | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to NUnit Tests - cs-file here*](#) |
 ---
