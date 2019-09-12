@@ -39,7 +39,7 @@
 
 ---
 
-##  Stage 1. Self-study (05.08.2019 - 15.09.2019)
+##  [Stage 1. Self-study (05.08.2019 - 15.09.2019)](https://drive.google.com/drive/folders/1l9-adJJR2SbdwOoow67Iz4cDpohaqOiq)
  
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
