@@ -59,7 +59,7 @@
  
 ---
 
-##  Stage 2. (16.09.2019 - 30.11.2019)
+##  [Stage 2. (16.09.2019 - 30.11.2019)](https://drive.google.com/drive/folders/1zwjMfJoOfPslOcK9_noqN32aL66u7hQ6)
 
 ### Day 1. 16.09.2019	
 #### Читать
