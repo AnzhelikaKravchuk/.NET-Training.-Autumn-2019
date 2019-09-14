@@ -28,7 +28,7 @@
 - На github-e соблюдать определенную структуру ([пример](https://github.com/AnzhelikaKravchuk/Training-Repository-Template)).
   - следовать правилам именования в репозитории;
   - обновлять файл readme.md корневой папки репозитория согласно статусу выполненных задач.
-- Обязательным требованием для любой выполняемой задачи является ее соответствие [Settings.StyleCop](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%201).
+- Обязательным требованием для любой выполняемой задачи является ее соответствие [Settings.StyleCop](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%201%20-%2019.03.2019).
 - Обязательным требованием для любой выполняемой задачи является наличие [XML-комментариев](https://docs.microsoft.com/ru-ru/dotnet/csharp/programming-guide/xmldoc/) во всех библиотеках классов в коде.
 
 ----
