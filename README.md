@@ -17,7 +17,7 @@
 **TODO**
 - *Выслать на электронный адрес anzhelika.kravchuk@gmail.com письмо с указанием своего gmail-acc (названного по шаблону firstname.lastname@gmail.com (в случае существования "адекватного" аккаунта не обязательно)).*
 - *Установить IDE Visual Studio Community 2019 (**англоязычную версию**) или [другие IDE](https://www.slant.co/topics/4118/~c-ides).*
-- *Установить [StyleCop](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%201)*.
+- *Установить [StyleCop](https://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/tree/master/Day%201.%2016.09.2019)*.
 - *Установить [LINQPad](http://www.linqpad.net/)*.
 
 ### Требования к выполнению заданий.
