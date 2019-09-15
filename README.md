@@ -75,6 +75,8 @@
 - Джеффри Рихтер. CLR via C#. Часть I. Основы CLR.
 - [Introducing C# and the .NET Framework](https://github.com/AnzhelikaKravchuk/.NET-Training/wiki/Introducing-C%23-and-the-.NET-Framework)
 - [github: dotnet/coreclr](https://github.com/dotnet/coreclr/blob/master/Documentation/project-docs/dotnet-standards.md)
+- [Рейтинг языков программирования TIOBE](https://www.tiobe.com/tiobe-index/)   
+- [Немного про .NET Framework и .NET Core](https://habr.com/company/microsoft/blog/343804/)   
 
 ### Презентация 
 [version in progress](https://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/blob/master/Day%201.%2016.09.2019/Introduction%20to%20the%20.NET%20(2019%20in%20progress).pdf)
