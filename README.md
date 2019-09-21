@@ -169,6 +169,13 @@
 
 ---
 
+### К будущему допонительному заданию Александра Рыкова	
+- [VCS](https://learn.by/courses/course-v1:EPAM+DTO+ext1/courseware/ed724b3da0ce4e6d94e2260353f9bcd7/328025ec03584adfa6ab8ffa3dfa24e6/1)
+- [Git за полчаса: руководство для начинающих](https://proglib.io/p/git-for-half-an-hour/)
+- [Learn Git Branching](https://learngitbranching.js.org/?demo)
+- [Git Cheat Sheet Download]()
+---
+
 ### Day 3. 19.09.2019	
 #### Читать
 - [C# 5.0 Unleashed. Bart De Smet. Sams Publishing. 2013](https://drive.google.com/drive/u/0/folders/0B7WmjuqYed3Aeko0MzNYZWtVOUk) Chapter 10: Methods
