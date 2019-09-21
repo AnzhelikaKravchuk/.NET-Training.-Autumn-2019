@@ -17,7 +17,7 @@
 **TODO**
 - *Выслать на электронный адрес anzhelika.kravchuk@gmail.com письмо с указанием своего gmail-acc (названного по шаблону firstname.lastname@gmail.com (в случае существования "адекватного" аккаунта не обязательно)).*
 - *Установить IDE Visual Studio Community 2019 (**англоязычную версию**) или [другие IDE](https://www.slant.co/topics/4118/~c-ides).*
-- *Установить [StyleCop](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/tree/master/Day%201)*.
+- *Установить [StyleCop](https://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/tree/master/Day%201.%2016.09.2019)*.
 - *Установить [LINQPad](http://www.linqpad.net/)*.
 
 ### Требования к выполнению заданий.
@@ -75,21 +75,33 @@
 - Джеффри Рихтер. CLR via C#. Часть I. Основы CLR.
 - [Introducing C# and the .NET Framework](https://github.com/AnzhelikaKravchuk/.NET-Training/wiki/Introducing-C%23-and-the-.NET-Framework)
 - [github: dotnet/coreclr](https://github.com/dotnet/coreclr/blob/master/Documentation/project-docs/dotnet-standards.md)
+- [Рейтинг языков программирования TIOBE](https://www.tiobe.com/tiobe-index/)   
+- [Немного про .NET Framework и .NET Core](https://habr.com/company/microsoft/blog/343804/)   
 
 ### Презентация 
 [version in progress](https://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/blob/master/Day%201.%2016.09.2019/Introduction%20to%20the%20.NET%20(2019%20in%20progress).pdf)
 
-#### Задачи (deadline - )
+#### Задачи (deadline - 18.09.2019, 24.00)
+
+- Реализовать методы пузырьковой, быстрой и сортировки слиянием для упорядчивания элементов целочисленного массива по нестрогому возрастанию (методы поместить в статический класс ArrayExtension, тип проекта Class Library). 
+> Одномерный массив считать упорядоченным, если отношение порядка выполняется для элементов, индексы которых удовлетворяют некоторому заданному условию (например, диапазон и шаг изменения, удоблетворение условия кратности заданной цифре и т.п.), а само отношение порядка определяется некоторой функцией-ключем (например, определяющей количество заданного символа в p-ичном (2<=p<=16) представлении числа, модуль числа и т.п.). *Для получения p-ичного строкового представления числа готовые классы-конверторы не использовать!* 
+- Протестировать работу методов с использованием тестового фреймворка NUnit. Для тест-кейсов    
+	в качестве функции-ключа использовать:    
+		- модуль целочисленного значения элемента массива;     
+		- количество вхождений заданного символа c в p-ичном представлении элемента массива;        
+	в качестве условия для индексов использовать:   
+		- четность;  
+		- нечетность;  
+		- кратность заданной цифре d.  
+- Рассмотреть вариант тестирования массивов большой размерности, элементы которых сгенерированны случайным образом. 
 
 ***При выполнение задач данного дня и дней до темы "Делегаты" и "LINQ" запрещено использование типа делагат и LINQ-запросов в библиотеках классов.***
 
 #### Task Status
 
-| Task | Solution Status | Solution Link | MS Test Status | MS Test Link | NUnit Tests Status | NUnit Tests Link | Additional/Comments |
-| -------- | -------- | --------| --------|  -------- |  -------- | -------- | -------- |    
-| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to .cs-file here*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to MS Tests - cs-file here*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to NUnit Tests - cs-file here*](#) | [*Link to Tests Generator code - cs-file - Optional*](#)
-| 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to Assembly - dll-file here*](#) | ![Done](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [Link to report.md-file here*](#) |  |  | 
-| 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to docunemtation - chm-file here*](#) |  |  |  |  | 
+| Task | Solution Status | Solution Link | NUnit Tests Status | NUnit Tests Link | Additional/Comments |
+| -------- | -------- | --------| --------|  -------- |  -------- |   
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to .cs-file here*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to NUnit Tests - cs-file here*](#) | [*Link to Tests Generator code - cs-file - Optional*](#)
 
 ---
 
@@ -100,13 +112,23 @@
 - The Art of Unit Testing. ROY OSHEROVE. PART 1 GETTING STARTED.
 - [Что нужно знать про арифметику с плавающей запятой](https://habrahabr.ru/post/112953/)
 - [Get started with unit testing](https://docs.microsoft.com/en-us/visualstudio/test/getting-started-with-unit-testing) или [Приступая к работе с модульным тестированием](https://docs.microsoft.com/ru-ru/visualstudio/test/getting-started-with-unit-testing)
+- [Архитектура компьютера. Э. Таненбаум. Приложение А, Приложение B](https://drive.google.com/file/d/1fCJqlORKzXciCTzi5LG0daANM6Syrta7/view?usp=sharing)
+
+#### Полезные ссылки
+
+- [IEEE-754 Floating Point Converter](https://www.h-schmidt.net/FloatConverter/IEEE754.html)
+- [Наглядное объяснение чисел с плавающей запятой](https://habr.com/ru/post/337260/)
+- [Взгляд со стороны: Стандарт IEEE754](https://habr.com/ru/post/262245/)
+- [Представление вещественных чисел](https://neerc.ifmo.ru/wiki/index.php?title=%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2%D0%B5%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D1%85_%D1%87%D0%B8%D1%81%D0%B5%D0%BB#.D0.94.D0.B5.D0.BD.D0.BE.D1.80.D0.BC.D0.B0.D0.BB.D0.B8.D0.B7.D0.BE.D0.B2.D0.B0.D0.BD.D0.BD.D1.8B.D0.B5_.D1.87.D0.B8.D1.81.D0.BB.D0.B0)
+- [Что внутри числа с плавающей точкой и как оно работает](https://javarush.ru/groups/posts/2255-chto-vnutri-chisla-s-plavajujshey-tochkoy-i-kak-ono-rabotaet)
+- [IEEE 754 - стандарт двоичной арифметики с плавающей точкой](http://www.softelectro.ru/ieee754.html)
 
  *Дополнительно:*
 - [Basic Coding in C#](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/tree/master/M2.%20Basic%20Coding%20in%20C%23)
 - [C# Unit Testing](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/tree/master/M5.%20C%23%20Unit%20Testing)
 
 #### Задачи
-1. **(deadline - ##.09.2019, ##.##)** Даны два целых знаковых четырехбайтовых числа и две позиции битов i и j (i<=j). Реализовать алгоритм вставки первых (j - i + 1) битов второго числа в первое так, чтобы биты второго числа занимали позиции с бита i по бит j (биты нумеруются справа налево). Решение оформить  в виде статического метода **InsertNumberIntoAnother** статического класса **NumbersExtension**. Разработать модульные тесты (NUnit и MS Unit Test - ([DDT](https://msdn.microsoft.com/en-us/library/ms182527.aspx)))) для тестирования метода. (Ниже схема-пояснение к алгоритму). Примерные тест-кейсы
+1. **(deadline - 20.09.2019, 24.00)** Даны два целых знаковых четырехбайтовых числа и две позиции битов i и j (i<=j). Реализовать алгоритм вставки первых (j - i + 1) битов второго числа в первое так, чтобы биты второго числа занимали позиции с бита i по бит j (биты нумеруются справа налево). Решение оформить  в виде статического метода **InsertNumberIntoAnother** статического класса **NumbersExtension**. Разработать модульные тесты (NUnit и MS Unit Test - ([DDT](https://msdn.microsoft.com/en-us/library/ms182527.aspx)))) для тестирования метода. (Ниже схема-пояснение к алгоритму). Примерные тест-кейсы
 
         [TestCase(2728, 655, 3, 8, ExpectedResult = 2680)]
         [TestCase(554216104, 15, 0, 31, ExpectedResult = 15)]
@@ -123,9 +145,9 @@
         ...
         
 ![Схема к алгоритму](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/blob/master/Pictures/Scheme.png)    
-2. **(deadline - ##.09.2019, ##.##)** Реализовать *рекурсивный* алгоритм поиска максимального элемента в неотсортированном целочисленом массиве. Решение оформить  в виде статического метода **FindMximumItem** статического класса **ArrayExtension**. Разработать модульные тесты NUnit для тестирования метода. Рассмотреть вариант тестирования массивов большой размерности, элементы которых сгенерированны случайным образом.  
-3. **(deadline - ##.09.2019, ##.##)** Реализовать алгоритм поиска в целочисленном массиве индекса элемента, для которого сумма элементов слева и сумма элементов справа равны. Решение оформить  в виде статического метода **FindBalanceIndex** статического класса **ArrayExtension** (п. 2). Если такого элемента не существует вернуть null. Разработать модульные тесты NUnit.   
-4. **(deadline - ##.09.2019, ##.##)** Реализовать метод, который принимает массив целых чисел и фильтрует его таким образом, чтобы на выходе был получен новый массив, состоящий только из элементов, которые содержат заданную цифру. (*LINQ-запросы не использовать!*) В случае, если таких элементов нет, вернуть пустой массив. Решение оформить  в виде статического метода **FilterArrayByKey** статического класса **ArrayExtension** (п. 2). Например, для цифры 7, метод **FilterArrayByKey** для набора {7,1,2,3,4,5,6,7,68,69,70,15,17} возвращает набор {7,7,70,17}. Разработать модульные тесты NUnit и MS Unit Test для тестирования метода. Примерные тест-кейсы 
+2. **(deadline - 19.09.2019, 24.00)** Реализовать *рекурсивный* алгоритм поиска максимального элемента в неотсортированном целочисленом массиве. Решение оформить  в виде статического метода **FindMximumItem** статического класса **ArrayExtension**. Разработать модульные тесты NUnit для тестирования метода. Рассмотреть вариант тестирования массивов большой размерности, элементы которых сгенерированны случайным образом.  
+3. **(deadline - 21.09.2019, 24.00))** Реализовать алгоритм поиска в целочисленном массиве индекса элемента, для которого сумма элементов слева и сумма элементов справа равны. Решение оформить  в виде статического метода **FindBalanceIndex** статического класса **ArrayExtension** (п. 2). Если такого элемента не существует вернуть null.    
+4. **(deadline - 22.09.2019, 24.00))** Реализовать метод, который принимает массив целых чисел и фильтрует его таким образом, чтобы на выходе был получен новый массив, состоящий только из элементов, которые содержат заданную цифру. (*LINQ-запросы не использовать!*) В случае, если таких элементов нет, вернуть пустой массив. Решение оформить  в виде статического метода **FilterArrayByKey** статического класса **ArrayExtension** (п. 2). Например, для цифры 7, метод **FilterArrayByKey** для набора {7,1,2,3,4,5,6,7,68,69,70,15,17} возвращает набор {7,7,70,17}. Разработать модульные тесты NUnit и MS Unit Test для тестирования метода. Примерные тест-кейсы 
         
         [TestCase(new[] { 2212332, 1405644, -1236674 }, 0, ExpectedResult = new[] { 1405644 })]
         [TestCase(new[] { 53, 71, -24, 1001, 32, 1005 }, 2, ExpectedResult = new[] { -24, 32 })]
@@ -145,6 +167,13 @@
 | 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to .cs-file here*](#) |  |  | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to NUnit Tests - cs-file here*](#) |
 | 4 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to .cs-file here*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to MS Tests - cs-file here*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to NUnit Tests - cs-file here*](#) |
 
+---
+
+### К будущему допонительному заданию Александра Рыкова	
+- [VCS](https://learn.by/courses/course-v1:EPAM+DTO+ext1/courseware/ed724b3da0ce4e6d94e2260353f9bcd7/328025ec03584adfa6ab8ffa3dfa24e6/1)
+- [Git за полчаса: руководство для начинающих](https://proglib.io/p/git-for-half-an-hour/)
+- [Learn Git Branching](https://learngitbranching.js.org/?demo)
+- [Git Cheat Sheet Download]()
 ---
 
 ### Day 3. 19.09.2019	
