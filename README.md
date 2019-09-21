@@ -174,7 +174,7 @@
 - [VCS](https://learn.by/courses/course-v1:EPAM+DTO+ext1/courseware/ed724b3da0ce4e6d94e2260353f9bcd7/328025ec03584adfa6ab8ffa3dfa24e6/1)
 - [Git за полчаса: руководство для начинающих](https://proglib.io/p/git-for-half-an-hour/)
 - [Learn Git Branching](https://learngitbranching.js.org/?demo)
-- [Git Cheat Sheet Download]()
+- [Git Cheat Sheet Download](https://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/blob/master/Day%203.%2019.09.2019/Git_Cheat_Sheet.pdf)
 ---
 
 ### Day 3. 19.09.2019	
