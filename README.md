@@ -170,12 +170,12 @@
 
 ---
 
-### К будущему допонительному заданию Александра Рыкова	
+### К будущему дополнительному заданию Александра Рыкова	
 - [VCS](https://learn.by/courses/course-v1:EPAM+DTO+ext1/courseware/ed724b3da0ce4e6d94e2260353f9bcd7/328025ec03584adfa6ab8ffa3dfa24e6/1)
 - [Git за полчаса: руководство для начинающих](https://proglib.io/p/git-for-half-an-hour/)
 - [Learn Git Branching](https://learngitbranching.js.org/?demo)
 - [Git Cheat Sheet Download](https://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/blob/master/Day%203.%2019.09.2019/Git_Cheat_Sheet.pdf)
-- 
+
 ---
 
 ### Day 3. 19.09.2019
@@ -220,8 +220,15 @@
 
 #### Задачи
   
-1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - in class)**      
-2. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - ##.09.2019, ##.##)** В статический класс **MathExtension** (п. 1) добавть **FindGcdByEuclidean**-методы которого позволяют выполнять вычисления НОД по алгоритму Евклида для двух, трех и т.д. целых чисел (http://en.wikipedia.org/wiki/Euclidean_algorithm , https://habrahabr.ru/post/205106/, https://habrahabr.ru/post/205106/). Добавить методы, которые помимо вычисления НОД, предоставляют дополнительную возможность определения значение времени, необходимое для выполнения расчета. К разработанному классу добавить **FindGcdByStein**-методы, реализующие алгоритм Стейна (бинарный алгоритм Евклида) для расчета НОД двух, трех и т.д. целых чисел (http://en.wikipedia.org/wiki/Binary_GCD_algorithm, https://habrahabr.ru/post/205106/ ), а также методы,  предоставляющие дополнительную возможность определения значение времени, необходимое для выполнения расчета. Рассмотреть различные возможности реализации методов, возвращающих время вычисления НОД. Разработать модульные тесты.
+1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - in class)**   
+ 	- Проанализировать код, полученный при решении задачи #4 (Day 2. 17.09.2019), на предмет возможности его использования для получения (из исходного) массива, состоящего только из тех элементов исходного, запись которых является полиндромом (симметричным)(например 121, 1345431, 122221 и т.д.). *Функцию, определяющую является ли число полиндромом, реализовать как рекурсивную.*   	
+ 	- Добавить, если требуется, недостающую функциональность.
+	- Проанализировать полученный код на возможность его использования для получения (из исходного) массива, состоящего только из четных элементов исходного. Добавить, если требуется, недостающую функциональность.
+	- Предложить вариант общей формулировки решенных задач.  
+	- Полученный методы (методы) оформить как метод (методы) расширения для целочисленных массивов. 
+ 	
+2. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - ##.09.2019, ##.##)** 
+	- В статический класс **MathExtension** (п. 1) добавть **FindGcdByEuclidean**-методы которого позволяют выполнять вычисления НОД по алгоритму Евклида для двух, трех и т.д. целых чисел (http://en.wikipedia.org/wiki/Euclidean_algorithm , https://habrahabr.ru/post/205106/, https://habrahabr.ru/post/205106/). Добавить методы, которые помимо вычисления НОД, предоставляют дополнительную возможность определения значение времени, необходимое для выполнения расчета. К разработанному классу добавить **FindGcdByStein**-методы, реализующие алгоритм Стейна (бинарный алгоритм Евклида) для расчета НОД двух, трех и т.д. целых чисел (http://en.wikipedia.org/wiki/Binary_GCD_algorithm, https://habrahabr.ru/post/205106/ ), а также методы,  предоставляющие дополнительную возможность определения значение времени, необходимое для выполнения расчета. Рассмотреть различные возможности реализации методов, возвращающих время вычисления НОД. Разработать модульные тесты.
 
 #### Task Status
 
@@ -237,7 +244,7 @@
 
 #### Задачи
   
-1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - ##.09.2019, ##.##)**      
+1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - ##.09.2019, ##.##)**  
 2. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - ##.09.2019, ##.##)**  
 
 #### Task Status
