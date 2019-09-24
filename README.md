@@ -220,7 +220,7 @@
 
 #### Задачи
   
-1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - in class)**   
+1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 25.09.2019б 24.00)**   
  	- Проанализировать код, полученный при решении задачи #4 (Day 2. 17.09.2019), на предмет возможности его использования для получения (из исходного) массива, состоящего только из тех элементов исходного, запись которых является полиндромом (симметричным)(например 121, 1345431, 122221 и т.д.). *Функцию, определяющую является ли число полиндромом, реализовать как рекурсивную.*   	
  	- Добавить, если требуется, недостающую функциональность.
 	- Проанализировать полученный код на возможность его использования для получения (из исходного) массива, состоящего только из четных элементов исходного. Добавить, если требуется, недостающую функциональность.
@@ -228,7 +228,7 @@
 	- Полученный методы (методы) оформить как метод (методы) расширения для целочисленных массивов. 
  	
 2. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - ##.09.2019, ##.##)** 
-	- В статический класс **MathExtension** (п. 1) добавть **FindGcdByEuclidean**-методы которого позволяют выполнять вычисления НОД по алгоритму Евклида для двух, трех и т.д. целых чисел (http://en.wikipedia.org/wiki/Euclidean_algorithm , https://habrahabr.ru/post/205106/, https://habrahabr.ru/post/205106/). Добавить методы, которые помимо вычисления НОД, предоставляют дополнительную возможность определения значение времени, необходимое для выполнения расчета. К разработанному классу добавить **FindGcdByStein**-методы, реализующие алгоритм Стейна (бинарный алгоритм Евклида) для расчета НОД двух, трех и т.д. целых чисел (http://en.wikipedia.org/wiki/Binary_GCD_algorithm, https://habrahabr.ru/post/205106/ ), а также методы,  предоставляющие дополнительную возможность определения значение времени, необходимое для выполнения расчета. Рассмотреть различные возможности реализации методов, возвращающих время вычисления НОД. Разработать модульные тесты.
+	- В статический класс **MathExtension** (п. 1) добавть **FindGcdByEuclidean** - методы которого позволяют выполнять вычисления НОД по алгоритму Евклида для двух, трех и т.д. целых чисел (http://en.wikipedia.org/wiki/Euclidean_algorithm , https://habrahabr.ru/post/205106/, https://habrahabr.ru/post/205106/). Добавить методы, которые помимо вычисления НОД, предоставляют дополнительную возможность определения значение времени, необходимое для выполнения расчета. К разработанному классу добавить **FindGcdByStein**-методы, реализующие алгоритм Стейна (бинарный алгоритм Евклида) для расчета НОД двух, трех и т.д. целых чисел (http://en.wikipedia.org/wiki/Binary_GCD_algorithm, https://habrahabr.ru/post/205106/ ), а также методы,  предоставляющие дополнительную возможность определения значение времени, необходимое для выполнения расчета. Рассмотреть различные возможности реализации методов, возвращающих время вычисления НОД. Разработать модульные тесты.
 
 #### Task Status
 
@@ -244,12 +244,19 @@
 
 #### Задачи
   
-1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - ##.09.2019, ##.##)**  
-2. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - ##.09.2019, ##.##)**  
+1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - in class)**    
+   Разработать систему типов для описания работы с банковским счетом. Состояние счета определяется его номером, данными о владельце счета (имя, фамилия, e-mail), суммой на счете, его текущим состоянием (активен, закрыт, заморожен ...) и некоторыми бонусными баллами, которые увеличиваются каждый раз при пополнении счета/списании со счета на величины различные для пополнения и списания и рассчитываемые в зависимости от некоторых значений величин «стоимости» баланса и «стоимости» пополнения. Величины «стоимости» баланса и «стоимости» пополнения являются целочисленными значениями и зависят от типа счета, который может быть, Base, Silver, Gold. Для работы со счетом реализовать следующие возможности: 
+   - пополнение на счет;
+   - списание со счета (для счетов выше Base, возможен списание в кредит, размер кредита зависит от статуса карты); 
+   - перевод суммы с одного счета на другой счет;
+   - создание нового счета; 
+   - закрытие счета.
+ 
+   Работу типов продемонстрировать на примере консольного приложения. 
+  
 
 #### Task Status
 
 | Task | Solution Status | Solution Link | NUnit Tests Status | NUnit Tests Link | Additional/Comments |
 | -------- | -------- | --------| --------|  -------- |  -------- |  
 | 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to .cs-file here*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to NUnit Tests - cs-file here*](#)
-| 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to .cs-file here*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to NUnit Tests - cs-file here*](#)
