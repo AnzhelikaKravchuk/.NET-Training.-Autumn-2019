@@ -263,7 +263,7 @@
 1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png))**    
    Разработать систему типов для описания работы с банковским счетом. Состояние счета определяется его номером, данными о владельце счета (имя, фамилия, e-mail), суммой на счете, его текущим состоянием (активен, закрыт, заморожен ...) и некоторыми бонусными баллами, которые увеличиваются каждый раз при пополнении счета/списании со счета на величины различные для пополнения и списания и рассчитываемые в зависимости от некоторых значений величин «стоимости» баланса и «стоимости» пополнения. Величины «стоимости» баланса и «стоимости» пополнения являются целочисленными значениями и зависят от типа счета, который может быть, Base, Silver, Gold. Для работы со счетом реализовать следующие возможности: 
    - пополнение на счет;
-   - списание со счета (для счетов выше Base, возможен списание в кредит, размер кредита зависит от статуса карты); 
+   - списание со счета (для счетов выше Base, возможен списание в кредит, размер кредита зависит от статуса счета); 
    - перевод суммы с одного счета на другой счет;
    - создание нового счета; 
    - закрытие счета.
@@ -317,7 +317,7 @@
 	- [TestCase(-23.809d, ExpectedResult = "minus two three point eight zero nine")]
 	- [TestCase(-0.123456789d, ExpectedResult = "minus zero point one two three four five six seven eight nine")]
 	- [TestCase(1.23333e308d, ExpectedResult = "one point two three three three three E plus three zero eight")]
-	- [TestCase(double.Epsilon, ExpectedResult = "four point nine four zero six five six four five eight four one two four seven E minus three two four")] 
+	- [TestCase(double.Epsilon, ExpectedResult = "four point nine four zero six five six four five eight four one two four seven E minus three two four")]   
 	и т.д. для double.MaxValue, double.MaxValue. 
 	
 2. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 28.09.2019, 24.00)**  Расширить функциональную возможность типа System.Double, реализовав возможность получения строкового представления вещественного числа в формате IEEE 754. **Готовые классы-конверторы не использовать.** Разработать модульные тесты. Примерные тест-кейсы (для тестирования специальных значений вещественных чисел возможны варианты)
@@ -331,7 +331,7 @@
     - [TestCase(double.NegativeInfinity, ExpectedResult = "1111111111110000000000000000000000000000000000000000000000000000")]
     - [TestCase(double.PositiveInfinity, ExpectedResult = "0111111111110000000000000000000000000000000000000000000000000000")]
     - [TestCase(-0.0, ExpectedResult = "1000000000000000000000000000000000000000000000000000000000000000")]
-    - [TestCase(0.0, ExpectedResult = "0000000000000000000000000000000000000000000000000000000000000000")] 
+    - [TestCase(0.0, ExpectedResult = "0000000000000000000000000000000000000000000000000000000000000000")]     
      и т.д.   
      
 3. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 30.09.2019, 24.00)**  Разработать **неизменяемый** класс Polynomial (полином) для работы с многочленами *n*-ой степени от одной переменной вещественного типа (в качестве внутренней структуры для хранения коэффициентов использовать sz-массив). Для разработанного класса реализовать протокол эквивалентности по значению, перегрузить операции (включая "==" и "!="), допустимые для работы с многочленами (исключая деление многочлена на многочлен). Разработать модульные тесты для тестирования методов класса.
