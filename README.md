@@ -317,7 +317,9 @@
 	- [TestCase(-23.809d, ExpectedResult = "minus two three point eight zero nine")]
 	- [TestCase(-0.123456789d, ExpectedResult = "minus zero point one two three four five six seven eight nine")]
 	- [TestCase(1.23333e308d, ExpectedResult = "one point two three three three three E plus three zero eight")]
-	- [TestCase(double.Epsilon, ExpectedResult = "four point nine four zero six five six four five eight four one two four seven E minus three two four")] и т.д. для double.MaxValue, double.MaxValue. 
+	- [TestCase(double.Epsilon, ExpectedResult = "four point nine four zero six five six four five eight four one two four seven E minus three two four")] 
+	и т.д. для double.MaxValue, double.MaxValue. 
+	
 2. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 28.09.2019, 24.00)**  Расширить функциональную возможность типа System.Double, реализовав возможность получения строкового представления вещественного числа в формате IEEE 754. **Готовые классы-конверторы не использовать.** Разработать модульные тесты. Примерные тест-кейсы (для тестирования специальных значений вещественных чисел возможны варианты)
     - [TestCase(-255.255, ExpectedResult = "1100000001101111111010000010100011110101110000101000111101011100")]
     - [TestCase(255.255, ExpectedResult = "0100000001101111111010000010100011110101110000101000111101011100")]
@@ -331,6 +333,7 @@
     - [TestCase(-0.0, ExpectedResult = "1000000000000000000000000000000000000000000000000000000000000000")]
     - [TestCase(0.0, ExpectedResult = "0000000000000000000000000000000000000000000000000000000000000000")] 
      и т.д.   
+     
 3. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 30.09.2019, 24.00)**  Разработать **неизменяемый** класс Polynomial (полином) для работы с многочленами *n*-ой степени от одной переменной вещественного типа (в качестве внутренней структуры для хранения коэффициентов использовать sz-массив). Для разработанного класса реализовать протокол эквивалентности по значению, перегрузить операции (включая "==" и "!="), допустимые для работы с многочленами (исключая деление многочлена на многочлен). Разработать модульные тесты для тестирования методов класса.
 
 
