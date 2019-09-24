@@ -228,7 +228,7 @@
 
 #### Задачи
   
-1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 25.09.2019, 24.00)**   
+1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 28.09.2019, 24.00)**   
  	- Проанализировать код, полученный при решении задачи #4 (Day 2. 17.09.2019), на предмет возможности его использования для получения (из исходного) массива, состоящего только из тех элементов исходного, запись которых является полиндромом (симметричным)(например 121, 1345431, 122221 и т.д.). *Функцию, определяющую является ли число полиндромом, реализовать как рекурсивную.*   	
  	- Добавить, если требуется, недостающую функциональность.
 	- Проанализировать полученный код на возможность его использования для получения (из исходного) массива, состоящего только из четных элементов исходного. Добавить, если требуется, недостающую функциональность.
@@ -308,7 +308,7 @@
 
 #### Задачи
   
-1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 28.09.2019, 24.00)**  Реализовать *экземплярный* класс Transformer, *экземплярный* метод TransformToWords которого выполняет преобразование любого вешественного (System.Double) числа в его "словестный формат". Разработать модульные тесты. Примерные тест-кейсы
+1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 25.09.2019, 24.00)**  Реализовать *экземплярный* класс Transformer, *экземплярный* метод TransformToWords которого выполняет преобразование любого вешественного (System.Double) числа в его "словестный формат". Разработать модульные тесты. Примерные тест-кейсы
 	- [TestCase(double.NaN, ExpectedResult = "Not a number")]
 	- [TestCase(double.NegativeInfinity, ExpectedResult = "Negative infinity")]
 	- [TestCase(double.PositiveInfinity, ExpectedResult = "Positive infinity")]
