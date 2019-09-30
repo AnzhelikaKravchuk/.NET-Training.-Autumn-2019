@@ -342,7 +342,7 @@
 
 ---
 
-###  Day 7. 30.09.2019	(Workshop, **![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 02.09.2019, 24.00**)
+###  Day 7. 30.09.2019	(Workshop, **![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 02.10.2019, 24.00**)
 
 1. Некто L начал разработку библиотеки (проект *Algorithms.V1*) для алгебраических вычислений. Согласно требованию библиотека должна быть реализована как статический класс с удобными для использования для различного рода расчетов статическими методами, в частности, методами, реализующими подсчет НОД-а для двух, трех, четырех и т.д. целых чисел алгоритмом Евклида (Стайна), включая возможность подсчета времени вычислений.
 
@@ -380,7 +380,7 @@
 
 ---
 
-### Additional Task (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 18.09.2019, 24.00**)
+### Additional Task (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 18.10.2019, 24.00**)
 #### Полезные ссылки
 - [VCS](https://learn.by/courses/course-v1:EPAM+DTO+ext1/courseware/ed724b3da0ce4e6d94e2260353f9bcd7/328025ec03584adfa6ab8ffa3dfa24e6/1)
 - [Git за полчаса: руководство для начинающих](https://proglib.io/p/git-for-half-an-hour/)
