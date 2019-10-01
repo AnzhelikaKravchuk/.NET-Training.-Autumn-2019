@@ -389,8 +389,8 @@
 
 #### [Задача](https://github.com/epam-lab/file-cabinet-task/tree/version1)
 
-| Step | Task | Solution Status | Solution Link | Additional/Comments |
-| -------- | -------- | -------- | --------| --------|  -------- |  -------- |   
+| Step | Task | Status | Solution Link | Additional/Comments |
+| -------- | -------- | -------- | -------- | -------- |
 | 1 | Создание консольного приложения FileCabinetApp | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*NUnit Tests*](#) |
 | 2 | Создание сервиса FileCabinetService | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*NUnit Tests*](#) |
 | 3 | Редактирование и валидация данных | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*NUnit Tests*](#) |
