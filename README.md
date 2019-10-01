@@ -522,7 +522,7 @@
 | Collection | Indexed lookup | Keyed lookup | Value lookup | Addition |  Removal |  Memory |      
 | -------- | -------- | --------| --------|  -------- |  -------- |  -------- |    
 | **Списки** | | | | | | |   
-| `T[]` | | | | | | |   
+| `T[]` | O(1) | -  | O(n) | O(n) | O(n) | Elements + additional info (like array's length) |   
 | `List<T>` | | | | | | |   
 |`LinkedList<T>`  |  |  |  |  |  |  |  
 |`Collection<T>`  |  |  |  |  |  |  |  
