@@ -519,8 +519,8 @@
 4. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 05.10.2019, 24.00**) Разработать обобщенный типизированный класс-коллекцию `Queue<T>`, реализующий основные операции для работы с очередью, и предоставляющий возможность итерирования по ней. Протестировать методы разработанного класса.
 5. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 10.10.2019, 24.00**) Заполните таблицу
 
-| Collection | Indexed lookup | Keyed lookup | Value lookup | Addition |  Removal |  Memory |    
-| -------- | -------- | --------| --------|  -------- |  -------- |  -------- |  -------- |   
+| Collection | Indexed lookup | Keyed lookup | Value lookup | Addition |  Removal |  Memory |      
+| -------- | -------- | --------| --------|  -------- |  -------- |  -------- |    
 | **Списки** | | | | | | |   
 | `T[]` | | | | | | |   
 | `List<T>` | | | | | | |   
@@ -548,7 +548,7 @@
 
 
 |Collection | Underlying structure | Lookup strategy | Ordering | Contiguous storage | Data access | Exposes Key & Value collection | 
-| -------- | -------- | --------| --------|  -------- |  -------- |  -------- |  -------- | 
+| -------- | -------- | --------| --------|  -------- |  -------- |  -------- | 
 **Списки** | | | | | | |  
 |`T[]` | |  | | | | |   
 |`List<T>` | |  | | | | |   
