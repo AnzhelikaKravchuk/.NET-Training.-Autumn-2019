@@ -4,7 +4,27 @@
 
 **Продолжительность тренинга 16.09.2019 - 30.11.2019**
 
-#### Место проведения занятий - Купревича 1-5,  комната 224.
+---
+<a name="stages"></a>
+
+ + [Info](#info)
+ + [Stage 1. Self-study (05.08.2019 - 15.09.2019)](#self-stady) 
+   - [content](#content1)
+ + [Stage 2. (16.09.2019 - 30.11.2019)](#stage2)  
+   - [Day 1. 16.09.2019](#1) 
+   - [Day 2. 17.09.2019](#2) 
+   - [Day 3. 19.09.2019](#3) 
+   - [Day 4. 23.09.2019](#4) 
+   - [Day 5. 24.09.2019](#5) 
+   - [Day 6. 26.09.2019](#6) 
+   - [Day 7. 30.09.2019](#7) 
+   - [Day 8. 01.10.2019](#8) 
+   - [Day 9. 03.10.2019](#9)
+
+---
+
+
+#### <a name="info"></a> Место проведения занятий - Купревича 1-5,  комната 224.
 
 #### [Дни и время проведения занятий](https://anzhelikakravchuk.github.io/Home/Schedule)
 - Понедельник 8.30 - 12.30
@@ -38,9 +58,11 @@
 
 ![](https://github.com/AnzhelikaKravchuk/Materials/blob/master/Pictures/Q%26A.png)
 
----
+----
 
-##  [Stage 1. Self-study (05.08.2019 - 15.09.2019)](https://drive.google.com/drive/folders/1l9-adJJR2SbdwOoow67Iz4cDpohaqOiq)
+[Up](#stages)
+
+## <a name="self-stady"></a> [Stage 1. Self-study (05.08.2019 - 15.09.2019)](https://drive.google.com/drive/folders/1l9-adJJR2SbdwOoow67Iz4cDpohaqOiq)
  
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
@@ -60,9 +82,11 @@
  
 ---
 
-##  [Stage 2. (16.09.2019 - 30.11.2019)](https://drive.google.com/drive/folders/1zwjMfJoOfPslOcK9_noqN32aL66u7hQ6)
+[Up](#stages)
 
-### Day 1. 16.09.2019	
+## <a name="stage2"></a>  [Stage 2. (16.09.2019 - 30.11.2019)](https://drive.google.com/drive/folders/1zwjMfJoOfPslOcK9_noqN32aL66u7hQ6)
+
+### <a name="1"></a>  Day 1. 16.09.2019	
 #### Читать
 - [Что такое CLR – Часть 1](http://kavayii.blogspot.com.by/2010/08/clr.html)
 - [Что такое CLR – Часть 2](http://kavayii.blogspot.com.by/2010/08/clr-2.html)
@@ -82,7 +106,7 @@
 ### Презентация 
 [version in progress](https://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/blob/master/Day%201.%2016.09.2019/Introduction%20to%20the%20.NET%20(2019%20in%20progress).pdf)
 
-#### Задачи (![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 18.09.2019, 24.00)
+#### <a name="1-Tasks"></a> Задачи (![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 18.09.2019, 24.00)
 
 - Реализовать методы пузырьковой, быстрой и сортировки слиянием для упорядчивания элементов целочисленного массива по нестрогому возрастанию (методы поместить в статический класс ArrayExtension, тип проекта Class Library). 
 > Одномерный массив считать упорядоченным, если отношение порядка выполняется для элементов, индексы которых удовлетворяют некоторому заданному условию (например, диапазон и шаг изменения, удоблетворение условия кратности заданной цифре и т.п.), а само отношение порядка определяется некоторой функцией-ключем (например, определяющей количество заданного символа в p-ичном (2<=p<=16) представлении числа, модуль числа и т.п.). *Для получения p-ичного строкового представления числа готовые классы-конверторы не использовать!* 
@@ -106,7 +130,9 @@
 
 ---
 
-### Day 2. 17.09.2019	
+[Up](#stages)
+
+### <a name="2"></a> Day 2. 17.09.2019	
 #### Читать
 - Ian Griffiths. Programming C# 5.0.  Chapter 2,  Numeric Types.
 - Joseph Albahari, Ben Albahari C# 5.0 (6.0) in a Nutshell. Chapter 6. Framework Fundamentals - Working with Numbers
@@ -128,7 +154,7 @@
 - [Basic Coding in C#](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/tree/master/M2.%20Basic%20Coding%20in%20C%23)
 - [C# Unit Testing](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/tree/master/M5.%20C%23%20Unit%20Testing)
 
-#### Задачи
+#### <a name="2-Tasks"></a> Задачи
 1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 20.09.2019, 24.00)** Даны два целых знаковых четырехбайтовых числа и две позиции битов i и j (i<=j). Реализовать алгоритм вставки первых (j - i + 1) битов второго числа в первое так, чтобы биты второго числа занимали позиции с бита i по бит j (биты нумеруются справа налево). Решение оформить  в виде статического метода **InsertNumberIntoAnother** статического класса **NumbersExtension**. Разработать модульные тесты (NUnit и MS Unit Test - ([DDT](https://msdn.microsoft.com/en-us/library/ms182527.aspx)))) для тестирования метода. (Ниже схема-пояснение к алгоритму). Примерные тест-кейсы
 
         [TestCase(2728, 655, 3, 8, ExpectedResult = 2680)]
@@ -170,7 +196,9 @@
 
 ---
 
-### Day 3. 19.09.2019
+[Up](#stages)
+
+### <a name="3"></a> Day 3. 19.09.2019
 #### Читать
 - [C# 5.0 Unleashed. Bart De Smet. Sams Publishing. 2013](https://drive.google.com/drive/u/0/folders/0B7WmjuqYed3Aeko0MzNYZWtVOUk) Chapter 10: Methods
 
@@ -178,7 +206,7 @@
 - [Basic Coding in C#](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/tree/master/M2.%20Basic%20Coding%20in%20C%23)
 - [Methods in details](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/tree/master/M4.%20Methods%20in%20details)
 
-#### Задачи
+#### <a name="3-Tasks"></a> Задачи
 1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 24.09.2019, 24.00)** Реализовать алгоритм, позволяющий вычислять корень **n**-ой степени ( n ∈ N ) из вещественного числа **а** методом Ньютона с заданной точностью. Решение оформить  в виде статического метода **FindNthRoot** статического класса **MathExtension**.
     - Разработать модульные тесты. Примерные тест кейсы:
       - [TestCase(1, 5, 0.0001,ExpectedResult = 1)]
@@ -194,7 +222,7 @@
       - [a = 0.001, n = -2, accurancy = 0.0001] <- ArgumentException
       - [a = 0.01, n = 2, accurancy = -1] <- ArgumentException	
       - ...
-2. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 25.09.2019, 24.00)** Реализовать метод, который для данного положительное целого число находит ближайшее меньшее целое, состоящее из цифр исходного числа, если такое число существует. Решение оформить  в виде статического метода **FindPreviousLessThan** статического класса **NumbersExtension** (Day 1. п. 2). Разработать модульные тесты для тестирования метода.  
+2. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 25.09.2019, 24.00)** Реализовать метод, который для данного положительное целого число находит ближайшее меньшее целое, состоящее из цифр исходного числа, если такое число существует. Решение оформить  в виде статического метода **FindPreviousLessThan** статического класса **NumbersExtension** [Task 1](#2-Tasks). Разработать модульные тесты для тестирования метода.  
 
 #### Task Status
 
@@ -205,7 +233,9 @@
 
 ---
 
-### Day 4. 23.09.2019
+[Up](#stages)
+
+### <a name="4"></a> Day 4. 23.09.2019
 #### Читать
 - [C# 6.0 in a Nutshell. Joseph Albahari, Ben Albahari. O'Reilly Media. 2015.](https://drive.google.com/drive/u/0/folders/0B7WmjuqYed3Aeko0MzNYZWtVOUk)
    - *Chapter 3.* Creating Types in C#
@@ -218,10 +248,10 @@
 - [Creating types in C#](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/tree/master/M3.%20Creating%20types%20in%20C%23)
 
 
-#### Задачи
+#### <a name="4-Tasks"></a> Задачи
   
 1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 28.09.2019, 24.00)**   
- 	- Проанализировать код, полученный при решении задачи #4 (Day 2. 17.09.2019), на предмет возможности его использования для получения (из исходного) массива, состоящего только из тех элементов исходного, запись которых является полиндромом (симметричным)(например 121, 1345431, 122221 и т.д.). *Функцию, определяющую является ли число полиндромом, реализовать как рекурсивную.*   	
+ 	- Проанализировать код, полученный при решении задачи [Task 4](#2-Tasks), на предмет возможности его использования для получения (из исходного) массива, состоящего только из тех элементов исходного, запись которых является полиндромом (симметричным)(например 121, 1345431, 122221 и т.д.). *Функцию, определяющую является ли число полиндромом, реализовать как рекурсивную.*   	
  	- Добавить, если требуется, недостающую функциональность.
 	- Проанализировать полученный код на возможность его использования для получения (из исходного) массива, состоящего только из четных элементов исходного. Добавить, если требуется, недостающую функциональность.
 	- Предложить вариант общей формулировки решенных задач.  
@@ -239,18 +269,20 @@
 
 ---
 
-### Day 5. 24.09.2019
+[Up](#stages)
+
+### <a name="5"></a> Day 5. 24.09.2019
 #### Читать
 - [C# 5.0 Unleashed. Bart De Smet. Sams Publishing. 2013](https://drive.google.com/drive/u/0/folders/0B7WmjuqYed3Aeko0MzNYZWtVOUk) Chapter 10: Methods
 
 #### Материалы
 - [Methods in details](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/tree/master/M4.%20Methods%20in%20details)   
-		+ методы расширения   
-		+ паттерн проектирования Singleton  
-		+ класс Lazy  
-		+ перегрузка операций  
+		- методы расширения   
+		- паттерн проектирования Singleton  
+		- класс Lazy  
+		- перегрузка операций  
 
-#### Задачи
+#### <a name="5-Tasks"></a> Задачи
   
 1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 04.09.2019, 18.09.2019 (version 1.0))**    
    Разработать систему типов для описания работы с банковским счетом. Состояние счета определяется его номером, данными о владельце счета (имя, фамилия, e-mail), суммой на счете, его текущим состоянием (активен, закрыт, заморожен ...) и некоторыми бонусными баллами, которые увеличиваются каждый раз при пополнении счета/списании со счета на величины различные для пополнения и списания и рассчитываемые в зависимости от некоторых значений величин «стоимости» баланса и «стоимости» пополнения. Величины «стоимости» баланса и «стоимости» пополнения являются целочисленными значениями и зависят от типа счета, который может быть, Base, Silver, Gold. Для работы со счетом реализовать следующие возможности: 
@@ -271,7 +303,9 @@
 
 ---
 
-### Day 6. 26.09.2019
+[Up](#stages)
+
+### <a name="6"></a> Day 6. 26.09.2019
 #### Читать
 - [Programming C# 5.0. Ian Griffiths. O'Reilly Media. 2012.](http://shop.oreilly.com/product/0636920024064.do)
   - *Chapter 6.* Inheritance [Download Example Code](https://resources.oreilly.com/examples/0636920024064/blob/master/Ch06.zip)
@@ -298,7 +332,7 @@
 - [IEEE 754 - стандарт двоичной арифметики с плавающей точкой](http://www.softelectro.ru/ieee754.html)
 - [Pro .NET Performance. Sasha Goldshtein. Chapter 3: Type Internals(Value Type Internals)](https://drive.google.com/drive/folders/0B7WmjuqYed3AVTBoU1dmTEdOTnM)
 
-#### Задачи
+#### <a name="6-Tasks"></a> Задачи
   
 1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 28.09.2019, 24.00)**  Реализовать *экземплярный* класс Transformer, *экземплярный* метод TransformToWords которого выполняет преобразование любого вешественного (System.Double) числа в его "словестный формат". Разработать модульные тесты. Примерные тест-кейсы
 	- [TestCase(double.NaN, ExpectedResult = "Not a number")]
@@ -342,7 +376,11 @@
 
 ---
 
-###  Day 7. 30.09.2019	(Workshop, **![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 02.10.2019, 24.00**)
+[Up](#stages)
+
+### <a name="7"></a> Day 7. 30.09.2019	(Workshop, **![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 02.10.2019, 24.00**)
+
+<a name="7-Tasks"></a>
 
 1. Некто L начал разработку библиотеки (проект *Algorithms.V1*) для алгебраических вычислений. Согласно требованию библиотека должна быть реализована как статический класс с удобными для использования для различного рода расчетов статическими методами, в частности, методами, реализующими подсчет НОД-а для двух, трех, четырех и т.д. целых чисел алгоритмом Евклида (Стайна), включая возможность подсчета времени вычислений.
 
@@ -380,7 +418,9 @@
 
 ---
 
-### Additional Task (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 18.10.2019, 24.00**)
+[Up](#stages)
+
+### <a name="AdditionalTask"></a> Additional Task (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 18.10.2019, 24.00**)
 #### Полезные ссылки
 - [VCS](https://learn.by/courses/course-v1:EPAM+DTO+ext1/courseware/ed724b3da0ce4e6d94e2260353f9bcd7/328025ec03584adfa6ab8ffa3dfa24e6/1)
 - [Git за полчаса: руководство для начинающих](https://proglib.io/p/git-for-half-an-hour/)
@@ -406,7 +446,9 @@
 
 ---
 
-### Day 8. 01.10.2019
+[Up](#stages)
+
+### <a name="8"></a> Day 8. 01.10.2019
 #### Материалы
 - [Programming C# 5.0. Ian Griffiths. O'Reilly Media. 2012.](http://shop.oreilly.com/product/0636920024064.do) 
    - *Chapter 4.* Generics. [Download Example Code](https://resources.oreilly.com/examples/0636920024064/blob/master/Ch04.zip) 
@@ -424,15 +466,15 @@
 - [Pro .NET Performance: Optimize Your C# Applications. Sasha Goldshtein.](http://www.apress.com/us/book/9781430244585)
    - *Chapter 5.* Collections and Generics   
 
-#### Задачи
+#### <a name="8-Tasks"></a> Задачи
 
-1. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 03.10.2019, 24.00**) Создать новый статический класс ArrayExtension, в который поместить код метода FilterArrayByKey (Task 4. Day 2), переименовав метод в Filter и сделав его методом расширения соответствующего массива. Метод должен уметь возвращать только те элемнты исходного массива, которые удовлетворяют определенному условию (предикату). И добавить метод FindMaximumItem (Task 2. Day 2), как метод расширения, переименовать в Max .
-2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 03.10.2019, 24.00**) Добавить в статический класс ArrayExtension метод расширения Transform который трансформирует элементы массива вещественных чисел в строку согласно переданному правилу. Проверить работу разработанного метода. В качестве тест-кейсов использовать следующие правила
+1. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 03.10.2019, 24.00**) Создать новый статический класс ArrayExtension, в который поместить код метода FilterArrayByKey [Task 4](#2-Tasks), переименовав метод в Filter и сделав его методом расширения соответствующего массива. Метод должен уметь возвращать только те элемнты исходного массива, которые удовлетворяют определенному условию (предикату). И добавить метод FindMaximumItem [Task 2](#2-Tasks), как метод расширения, переименовать в Max .
+2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 03.10.2019, 24.00**) Добавить в статический класс ArrayExtension (п.1) метод расширения Transform который трансформирует элементы массива вещественных чисел в строку согласно переданному правилу. Проверить работу разработанного метода. В качестве тест-кейсов использовать следующие правила
   - получение для вещественного числа его строкового "словесно-цифрового" описания на английском языке;
   - получение для вещественного числа его строкового "словесно-цифрового" описания на русском языке;
   - получение для вещественного числа его битового строкового предстваления в формате IEEE 754.    
-*Как, не изменяя код класса Transformer (Day 6. Task 1), его можно использовать в качестве правила для трансформации элементов массива в этом методе.*
-*Как, не изменяя код класса с методом расширения (Day 6. Task 2), его можно использовать в качестве правила для трансформации элементов массива в этом методе.*
+*Как, не изменяя код класса Transformer [Task 1](#6-Tasks), его можно использовать в качестве правила для трансформации элементов массива в этом методе.*
+*Как, не изменяя код класса с методом расширения [Task 2](#6-Tasks), его можно использовать в качестве правила для трансформации элементов массива в этом методе.*
 3. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 04.10.2019, 24.00**) Добавить в статический класс ArrayExtension метод расширения для массива строк OrderAccordingTo, который возвращает элементы исходного массива в порядке, определенном переданным правилом сравнения. (*С индексированием не мудрить! Это будет обычная сортировка с той лишь разницей, что упорядоченный массив будет в качестве возвращаемого значения, а исходный не изменится*.)
 
 #### Task Status
@@ -449,7 +491,9 @@
 
 ---
 
-### Day 9. 03.10.2019   
+[Up](#stages)
+
+### <a name="9"></a> Day 9. 03.10.2019   
 #### Материалы
 - [Programming C# 5.0. Ian Griffiths. O'Reilly Media. 2012.](http://shop.oreilly.com/product/0636920024064.do) 
    - *Chapter 4.* Generics. [Download Example Code](https://resources.oreilly.com/examples/0636920024064/blob/master/Ch04.zip) 
@@ -467,8 +511,66 @@
 - [Pro .NET Performance: Optimize Your C# Applications. Sasha Goldshtein.](http://www.apress.com/us/book/9781430244585)
    - *Chapter 5.* Collections and Generics   
 
-#### Задачи
+#### <a name="9-Tasks"></a> Задачи
+
+1. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 05.10.2019, 24.00**) Переобразовать методы расширения класса ArrayExtension [Day 8](#8-Tasks) в обобщенно-типизированные. Убедиться, что все написанные ранее тесты проходят. 
+2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 05.10.2019, 24.00**) Добавить в класс с методами рассширения новый обобщенный метод расширения, который получает из массива объектов новый массив, все элементы которого имеют один тип.
+3. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 06.10.2019, 24.00**) Реализовать метод-генератор последовательности чисел Фибоначчи. Разработать unit-тесты.
+4. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 05.10.2019, 24.00**) Разработать обобщенный типизированный класс-коллекцию `Queue<T>`, реализующий основные операции для работы с очередью, и предоставляющий возможность итерирования по ней. Протестировать методы разработанного класса.
+5. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 10.10.2019, 24.00**) Заполните таблицу
+
+| Collection | Indexed lookup | Keyed lookup | Value lookup | Addition |  Removal |  Memory |    
+| -------- | -------- | --------| --------|  -------- |  -------- |  -------- |  -------- |   
+| **Списки** | | | | | | |   
+| `T[]` | | | | | | |   
+| `List<T>` | | | | | | |   
+|`LinkedList<T>`  |  |  |  |  |  |  |  
+|`Collection<T>`  |  |  |  |  |  |  |  
+|`BindingList<T>`  |  |  |  |  |  |  |  
+|`ObservableCollection<T>`  |  |  |  |  |  |  |
+|`KeyCollection<TKey, TItem>`  |  |  |  |  |  |  |
+|`ReadOnlyCollection<T>`  |  |  |  |  |  |  |
+|`ReadOnlyObservableCollection<T>` |  |  |  |  |  |  |
+**Словари** | | | | | | |  
+|`Dictionary<TKey, TValue>`   |  |  |  |  |  |  |
+|`SortedList<TKey, TValue>`   |  |  |  |  |  |  |
+|`SortedDictionary<TKey, TValue>`  |  |  |  |  |  |  |
+|`SortedDictionary<TKey,TValue>`.   |  |  |  |  |  |  |  
+`ReadOnlyDictionary<TKey, TValue> `   |  |  |  |  |  |  |
+**Множества** | | | | | | | 
+|`HashSet<T>`  |  |  |  |  |  |  |
+|`SortedSet<T>`   |  |  |  |  |  |  |
+| **Очередь, стек** | | | | | | | 
+|`Queue<T>`  |  |  |  |  |  |  |
+|`Stack<T>`  |  |  |  |  |  |  |
+* `*` If ... .
+* `**`If ... .
 
 
+|Collection | Underlying structure | Lookup strategy | Ordering | Contiguous storage | Data access | Exposes Key & Value collection | 
+| -------- | -------- | --------| --------|  -------- |  -------- |  -------- |  -------- | 
+**Списки** | | | | | | |  
+|`T[]` | |  | | | | |   
+|`List<T>` | |  | | | | |   
+|`LinkedList<T>` | |  | | | | |   
+|`Collection<T>` | |  | | | | |   
+|`BindingList<T>` | |  | | | | |   
+|`ObservableCollection<T>`  | |  | | | | |   
+|`KeyCollection<TKey, TItem>`  | |  | | | | |   
+|`ReadOnlyCollection<T>` | |  | | | | |   
+|`ReadOnlyObservableCollection<T>`  | |  | | | | | 
+|**Словари** | | | | | | | 
+|`Dictionary<TKey, TValue>` | |  | | | | |    
+|`SortedList<TKey, TValue>`  | |  | | | | |   
+|`SortedDictionary<TKey, TValue>`  | |  | | | | |   
+|`ReadOnlyDictionary<TKey, TValue>`  | |  | | | | |   
+|**Множества** | | | | | | | 
+|`HashSet<T>` | |  | | | | |   
+|`SortedSet<T>`  | |  | | | | |   
+|**Очередь, стек** | | | | | | | 
+|`Queue<T>` | |  | | | | |   
+|`Stack<T>` | |  | | | | |   
 
+* `*` ... .
+* `**` ... .
 
