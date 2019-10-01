@@ -436,7 +436,7 @@
 
 ---
 
-#### [Материал обязательный к ознакомлению!] (https://github.com/epam-dotnet-lab/tasks/tree/version1/debugging)
+#### [Материал обязательный к ознакомлению](https://github.com/epam-dotnet-lab/tasks/tree/version1/debugging)
 
 ---
 
