@@ -550,7 +550,7 @@
 |Collection | Underlying structure | Lookup strategy | Ordering | Contiguous storage | Data access | Exposes Key & Value collection | 
 | -------- | -------- | --------| --------|  -------- |  -------- |  -------- | 
 **Списки** | | | | | | |  
-|`T[]` | |  | | | | |   
+|`T[]` | `System.Array` | - | No | Yes | Index | No |   
 |`List<T>` | |  | | | | |   
 |`LinkedList<T>` | |  | | | | |   
 |`Collection<T>` | |  | | | | |   
