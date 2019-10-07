@@ -523,7 +523,7 @@
 | Collection | Indexed lookup | Keyed lookup | Value lookup | Addition |  Removal |  Memory |      
 | -------- | -------- | --------| --------|  -------- |  -------- |  -------- |    
 | **Списки** | | | | | | |   
-| `T[]` | O(1) | -  | O(n) | O(n) | O(n) | Elements + additional info (like array's length) |   
+| `T[]` | | | | | | |   
 | `List<T>` | | | | | | |   
 |`LinkedList<T>`  |  |  |  |  |  |  |  
 |`Collection<T>`  |  |  |  |  |  |  |  
@@ -551,7 +551,7 @@
 |Collection | Underlying structure | Lookup strategy | Ordering | Contiguous storage | Data access | Exposes Key & Value collection | 
 | -------- | -------- | --------| --------|  -------- |  -------- |  -------- | 
 **Списки** | | | | | | |  
-|`T[]` | `System.Array` | - | No | Yes | Index | No |   
+|`T[]` | |  | | | | |   
 |`List<T>` | |  | | | | |   
 |`LinkedList<T>` | |  | | | | |   
 |`Collection<T>` | |  | | | | |   
@@ -610,4 +610,4 @@
 1. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 09.10.2019, 24.00**) Реализовать метод-генератор последовательности простых чисел. Разработать unit-тесты.
 2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 09.10.2019, 24.00**) Для заданной строки проверить правильность расстановки скобок '(', ')', '[', ']', '{', '}'. Разработать unit-тесты.
 3. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 10.10.2019, 24.00**) Для заданной строки выделить все различные слова. Слова, отличающиеся только регистром букв, считать одинаковыми. Разработать unit-тесты.
-4. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 11.10.2019, 24.00**) В кругу стоят N человек, пронумерованных от 1 до N. При ведении счета по кругу вычеркивается каждый второй человек, пока не останется один. Cмоделировать данный процесс. Разработать unit-тесты. 
+4. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 11.10.2019, 24.00**) В кругу стоят N человек, пронумерованных от 1 до N. При ведении счета по кругу вычеркивается каждый k-ый человек, пока не останется один. Cмоделировать данный процесс. Разработать unit-тесты. 
