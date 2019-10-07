@@ -523,7 +523,7 @@
 | Collection | Indexed lookup | Keyed lookup | Value lookup | Addition |  Removal |  Memory |      
 | -------- | -------- | --------| --------|  -------- |  -------- |  -------- |    
 | **Списки** | | | | | | |   
-| `T[]` | | | | | | |   
+| `T[]` | O(1) | -  | O(n) | O(n) | O(n) | Elements + additional info (like array's length) |   
 | `List<T>` | | | | | | |   
 |`LinkedList<T>`  |  |  |  |  |  |  |  
 |`Collection<T>`  |  |  |  |  |  |  |  
@@ -551,7 +551,7 @@
 |Collection | Underlying structure | Lookup strategy | Ordering | Contiguous storage | Data access | Exposes Key & Value collection | 
 | -------- | -------- | --------| --------|  -------- |  -------- |  -------- | 
 **Списки** | | | | | | |  
-|`T[]` | |  | | | | |   
+|`T[]` | `System.Array` | - | No | Yes | Index | No |   
 |`List<T>` | |  | | | | |   
 |`LinkedList<T>` | |  | | | | |   
 |`Collection<T>` | |  | | | | |   
