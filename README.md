@@ -615,7 +615,7 @@
 
 
 
-### Использование Moq
+### Использование [Moq](https://github.com/Moq/moq4/wiki/Quickstart)
 
 - Создание mock-объекта 
 		
