@@ -64,9 +64,9 @@
 [Up](#stages)
 
 ## <a name="self-stady"></a> [Stage 1. Self-study (05.08.2019 - 15.09.2019)](https://drive.google.com/drive/folders/1l9-adJJR2SbdwOoow67Iz4cDpohaqOiq)
- 
+
 | Task | Task Status | Additional/Comments |
-| -------- | -------- | --------|  
+| -------- | -------- | --------|
 | [Lections Day 1](https://drive.google.com/drive/folders/0B7WmjuqYed3AWXFzc1Mtcnk3d1k) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|
 | [Lections Day 2](https://drive.google.com/drive/folders/1_B9ncAWoJtoDvG6vQkxyAvMuXDdqXRAw) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|
 | [Lections Day 3](https://drive.google.com/drive/folders/1j17L1jUOa9wB1OibGtCuYdsV28kvstr-) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|
@@ -80,7 +80,7 @@
 | [Проектирование СУБД. Технострим. Модуль 1](https://www.youtube.com/watch?v=R21v8SoIsiY&list=PLrCZzMib1e9pq_sbw7ZEcEU3Yyz1AvE--&index=2&t=929s) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|
 | [Проектирование СУБД. Технострим. Модуль 2](https://www.youtube.com/watch?v=7t9hLFtN77U&list=PLrCZzMib1e9pq_sbw7ZEcEU3Yyz1AvE--&index=2) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|
 | [Проектирование СУБД. Технострим. Модуль 3](https://www.youtube.com/watch?v=fcNhZDWUGDM&list=PLrCZzMib1e9pq_sbw7ZEcEU3Yyz1AvE--&index=3) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|
- 
+
 ---
 
 [Up](#stages)
@@ -171,7 +171,8 @@
         NumbersExtension.InsertNumberIntoAnother(8, 15, 32, 32) => ArgumentOutOfRangeException
         NumbersExtension.InsertNumberIntoAnother(8, 15, 0, 32) => ArgumentOutOfRangeException
         ...
-        
+    
+
 ![Схема к алгоритму](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/blob/master/Pictures/Scheme.png)    
 2. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 19.09.2019, 24.00)** Реализовать *рекурсивный* алгоритм поиска максимального элемента в неотсортированном целочисленом массиве. Решение оформить  в виде статического метода **FindMximumItem** статического класса **ArrayExtension**. Разработать модульные тесты NUnit для тестирования метода. Рассмотреть вариант тестирования массивов большой размерности, элементы которых сгенерированны случайным образом.  
 3. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 21.09.2019, 24.00))** Реализовать алгоритм поиска в целочисленном массиве индекса элемента, для которого сумма элементов слева и сумма элементов справа равны. Решение оформить  в виде статического метода **FindBalanceIndex** статического класса **ArrayExtension** (п. 2). Если такого элемента не существует вернуть null.    
@@ -185,11 +186,11 @@
         ArrayExtension.FilterArrayByKey(new int[] { 1, 2 }, -1) => ArgumentOutOfRangeException
         ArrayExtension.FilterArrayByKey(null, 0) => ArgumentNullException
         ...
-        
+    
 #### Task Status
 
 | Task | Solution Status | Solution Link | MS Test Status | MS Test Link | NUnit Tests Status | NUnit Tests Link | Additional/Comments |
-| -------- | -------- | --------| --------|  -------- |  -------- | -------- | -------- |    
+| -------- | -------- | --------| --------|  -------- |  -------- | -------- | -------- |
 | 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to .cs-file here*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to MS Tests - cs-file here*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to NUnit Tests - cs-file here*](#) |
 | 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to .cs-file here*](#) |  |  | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to NUnit Tests - cs-file here*](#) |
 | 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to .cs-file here*](#) |  |  | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Link to NUnit Tests - cs-file here*](#) |
@@ -250,14 +251,14 @@
 
 
 #### <a name="4-Tasks"></a> Задачи
-  
+
 1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 28.09.2019, 24.00)**   
  	- Проанализировать код, полученный при решении задачи [Task 4](#2-Tasks), на предмет возможности его использования для получения (из исходного) массива, состоящего только из тех элементов исходного, запись которых является полиндромом (симметричным)(например 121, 1345431, 122221 и т.д.). *Функцию, определяющую является ли число полиндромом, реализовать как рекурсивную.*   	
  	- Добавить, если требуется, недостающую функциональность.
 	- Проанализировать полученный код на возможность его использования для получения (из исходного) массива, состоящего только из четных элементов исходного. Добавить, если требуется, недостающую функциональность.
 	- Предложить вариант общей формулировки решенных задач.  
 	- Полученный методы (методы) оформить как метод (методы) расширения для целочисленных массивов. 
- 	
+
 2. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 27.09.2019, 15.00)** 
 	- В статический класс **MathExtension** (п. 1) добавть **FindGcdByEuclidean** - методы которого позволяют выполнять вычисления НОД по алгоритму Евклида для двух, трех и т.д. целых чисел (http://en.wikipedia.org/wiki/Euclidean_algorithm , https://habrahabr.ru/post/205106/, https://habrahabr.ru/post/205106/). Добавить методы, которые помимо вычисления НОД, предоставляют дополнительную возможность определения значение времени, необходимое для выполнения расчета. К разработанному классу добавить **FindGcdByStein**-методы, реализующие алгоритм Стейна (бинарный алгоритм Евклида) для расчета НОД двух, трех и т.д. целых чисел (http://en.wikipedia.org/wiki/Binary_GCD_algorithm, https://habrahabr.ru/post/205106/ ), а также методы,  предоставляющие дополнительную возможность определения значение времени, необходимое для выполнения расчета. Рассмотреть различные возможности реализации методов, возвращающих время вычисления НОД. Разработать модульные тесты.
 
@@ -284,7 +285,7 @@
 		- перегрузка операций  
 
 #### <a name="5-Tasks"></a> Задачи
-  
+
 1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 04.09.2019, 18.09.2019 (version 1.0))**    
    Разработать систему типов для описания работы с банковским счетом. Состояние счета определяется его номером, данными о владельце счета (имя, фамилия, e-mail), суммой на счете, его текущим состоянием (активен, закрыт, заморожен ...) и некоторыми бонусными баллами, которые увеличиваются каждый раз при пополнении счета/списании со счета на величины различные для пополнения и списания и рассчитываемые в зависимости от некоторых значений величин «стоимости» баланса и «стоимости» пополнения. Величины «стоимости» баланса и «стоимости» пополнения являются целочисленными значениями и зависят от типа счета, который может быть, Base, Silver, Gold. Для работы со счетом реализовать следующие возможности: 
    - пополнение на счет;
@@ -292,9 +293,9 @@
    - перевод суммы с одного счета на другой счет;
    - создание нового счета; 
    - закрытие счета.
- 
+
    Работу типов продемонстрировать на примере консольного приложения. 
-  
+
 
 #### Task Status
 
@@ -334,7 +335,7 @@
 - [Pro .NET Performance. Sasha Goldshtein. Chapter 3: Type Internals(Value Type Internals)](https://drive.google.com/drive/folders/0B7WmjuqYed3AVTBoU1dmTEdOTnM)
 
 #### <a name="6-Tasks"></a> Задачи
-  
+
 1. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 28.09.2019, 24.00)**  Реализовать *экземплярный* класс Transformer, *экземплярный* метод TransformToWords которого выполняет преобразование любого вешественного (System.Double) числа в его "словестный формат". Разработать модульные тесты. Примерные тест-кейсы
 	- [TestCase(double.NaN, ExpectedResult = "Not a number")]
 	- [TestCase(double.NegativeInfinity, ExpectedResult = "Negative infinity")]
@@ -363,7 +364,7 @@
     - [TestCase(-0.0, ExpectedResult = "1000000000000000000000000000000000000000000000000000000000000000")]
     - [TestCase(0.0, ExpectedResult = "0000000000000000000000000000000000000000000000000000000000000000")]     
      и т.д.   
-     
+    
 3. **(![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 30.09.2019, 24.00)**  Разработать **неизменяемый** класс Polynomial (полином) для работы с многочленами *n*-ой степени от одной переменной вещественного типа (в качестве внутренней структуры для хранения коэффициентов использовать sz-массив). Для разработанного класса реализовать протокол эквивалентности по значению, перегрузить операции (включая "==" и "!="), допустимые для работы с многочленами (исключая деление многочлена на многочлен). Разработать модульные тесты для тестирования методов класса.
 
 
@@ -388,7 +389,7 @@
 	Завершите разработку библиотеки, начатой L, добавив недостающий функционал, *не изменяя сигнутуры существующих в типах методов*.
 	
 	Какие класс (классы) необходимо будет изменить в случае, если появиться необходимость добавить реализацию еще одного алгоритма Евклида? обоснуйте целесообразность использования подхода, предложенного L, с точки зрения трудозатрат при добавлении такой функциональности. 
-	  
+	
 	Подумайте, является ли необходимость подсчета времени ответственностью класса алгоритма.
 	
 2. Некто M начал разработку библиотеки (проект *Algorithms.V2*) для алгебраических вычислений. Согласно требованию библиотека должна предоставлять набор типов с удобными для использования различного рода расчетов методами, в частности, методами, реализующими подсчет НОД-а для двух, трех, четырех и т.д. целых чисел классическим алгоритмом Евклида (Стайна), включая возможность подсчета времени вычислений.   
@@ -398,7 +399,7 @@
 	Какие класс (классы) необходимо будет изменить в случае, если появиться необходимость добавить реализацию еще одного алгоритма? обоснуйте целесообразность использования подхода, предложенного M, с точки зрения трудозатрат при добавлении такой функциональности.   
 	
 3. Некто N начал разработку библиотеки (проект *Algorithms.V3*) для алгебраических вычислений. Согласно требованию библиотека должна предоставлять набор типов с удобными для использования различного рода расчетов методами, в частности, методами, реализующими подсчет НОД-а двух, трех, четырех и т.д. целых чисел классическим алгоритмом Евклида (Стайна), включая возможность подсчета времени вычислений.  
- 
+
 	Завершите разработку библиотеки, начатой N, добавив недостающий функционал, *не изменяя сигнутуры обозначенных в типах методов и наборы публичных членов предложенных типов*. Для реализации для обозначенных алгоритмов возможности подсчета НОД-а для трех, четырех и т.д. целых чисел разработать новый класс, который *расширяет* функциональность исходных, *не используя классического наследования*. Добавить в полученный класс возможность подсчета времени работы алгоритмов.
 	
 	Какие класс (классы) необходимо будет изменить в случае, если появиться необходимость добавить реализацию еще одного алгоритма? обоснуйте целесообразность использования подхода, предложенного N, с точки зрения трудозатрат при добавлении такой функциональности.  
@@ -432,18 +433,18 @@
 
 #### Task Status
 
-| Step | Task | Solution Status | Solution Link | Additional/Comments |     
-| -------- | -------- | -------- | --------| --------|        
-| 1 | Создание консольного приложения FileCabinetApp | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |    
-| 2 | Создание сервиса FileCabinetService | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |    
-| 3 | Редактирование и валидация данных | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |    
-| 4 | Поиск | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |    
-| 5 | Рефакторинг | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |    
-| 6 | Экспорт в CSV и XML | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |    
-| 7 | Хранилище на файловой системе | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |    
-| 8 | Расширение команды | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |     
-| 9 | Импорт из CSV и XML | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |    
-| 10 | Удаление записей | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |    
+| Step | Task | Solution Status | Solution Link | Additional/Comments |
+| -------- | -------- | -------- | --------| --------|
+| 1 | Создание консольного приложения FileCabinetApp | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |
+| 2 | Создание сервиса FileCabinetService | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |
+| 3 | Редактирование и валидация данных | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |
+| 4 | Поиск | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |
+| 5 | Рефакторинг | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |
+| 6 | Экспорт в CSV и XML | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |
+| 7 | Хранилище на файловой системе | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |
+| 8 | Расширение команды | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |
+| 9 | Импорт из CSV и XML | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |
+| 10 | Удаление записей | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |  |
 
 ---
 
@@ -520,14 +521,14 @@
 4. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 05.10.2019, 24.00**) Разработать обобщенный типизированный класс-коллекцию `Queue<T>`, реализующий основные операции для работы с очередью, и предоставляющий возможность итерирования по ней. Протестировать методы разработанного класса.
 5. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 10.10.2019, 24.00**) Заполните таблицу
 
-| Collection | Indexed lookup | Keyed lookup | Value lookup | Addition |  Removal |  Memory |      
-| -------- | -------- | --------| --------|  -------- |  -------- |  -------- |    
-| **Списки** | | | | | | |   
-| `T[]` | | | | | | |   
-| `List<T>` | | | | | | |   
-|`LinkedList<T>`  |  |  |  |  |  |  |  
-|`Collection<T>`  |  |  |  |  |  |  |  
-|`BindingList<T>`  |  |  |  |  |  |  |  
+| Collection | Indexed lookup | Keyed lookup | Value lookup | Addition |  Removal |  Memory |
+| -------- | -------- | --------| --------|  -------- |  -------- |  -------- |
+| **Списки** | | | | | | |
+| `T[]` | | | | | | |
+| `List<T>` | | | | | | |
+|`LinkedList<T>`  |  |  |  |  |  |  |
+|`Collection<T>`  |  |  |  |  |  |  |
+|`BindingList<T>`  |  |  |  |  |  |  |
 |`ObservableCollection<T>`  |  |  |  |  |  |  |
 |`KeyCollection<TKey, TItem>`  |  |  |  |  |  |  |
 |`ReadOnlyCollection<T>`  |  |  |  |  |  |  |
@@ -611,3 +612,47 @@
 2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 09.10.2019, 24.00**) Для заданной строки проверить правильность расстановки скобок '(', ')', '[', ']', '{', '}'. Разработать unit-тесты.
 3. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 10.10.2019, 24.00**) Для заданной строки выделить все различные слова. Слова, отличающиеся только регистром букв, считать одинаковыми. Разработать unit-тесты.
 4. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 11.10.2019, 24.00**) В кругу стоят N человек, пронумерованных от 1 до N. При ведении счета по кругу вычеркивается каждый k-ый человек, пока не останется один. Cмоделировать данный процесс. Разработать unit-тесты. 
+
+
+
+### Использование Moq
+
+- Создание mock-объекта 
+		
+		Mock<IDependency> mock = new Mock<IDependency>();
+		
+- Добавление метод в mock-объект
+			
+		mock.Setup(m => m.Calculate(It.IsAny<int>())).Returns<int>(value => value);
+
+| Метод | Описание |  
+| -------- | -------- |   
+| Is<T>(predicate) | Указывает значения типа T, для которых предикат (predicate) возвратит значение true |  
+| IsAny<T>() | Указывает любое значение типа T |  
+| IsInRange<T>(min, max, kind) | Срабатывает, если параметр находится между определенными значениями типа T. Последний параметр - это значение перечисления Range, которым может быть Inclusive или Exclusive |  
+| IsRegex(regex) | Срабатывает, если строковый параметр дает соответствие с указанным регулярным выражением |  
+
+- Определение результата, который Moq будет возвращать при вызове метода mock-объекта, тип результата задается с помощью параметра типа, а сам результат - посредством лямбда-выражения   
+			
+		.Returns<int>(value => value);
+		
+- Использование имитированного mock-объекта
+
+		var comeObject = new SomeClass(mock.Object);
+
+- Имитация для специфичных значений (и генерация исключения)
+
+		mock.Setup(m => m.Calculate(It.Is<int>(v => v == 0))).Throws<System.ArgumentOutOfRangeException>();
+		mock.Setup(m => m.Calculate(It.Is<int>(v => v > 100))).Returns<int>(value => -value);
+		
+
+---
+
+[Up](#stages)
+
+### <a name="10"></a> Day 10. 07.10.2019   
+#### Материалы
+
+		
+		
+		
