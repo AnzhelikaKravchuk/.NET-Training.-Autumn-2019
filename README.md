@@ -428,7 +428,7 @@
 - [Learn Git Branching](https://learngitbranching.js.org/?demo)
 - [Git Cheat Sheet Download](https://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/blob/master/Day%203.%2019.09.2019/Git_Cheat_Sheet.pdf)
 
-#### [Задача](https://github.com/epam-lab/file-cabinet-task/tree/version1)
+#### [Задача](https://github.com/epam-dotnet-lab/file-cabinet-task)
 
 #### Task Status
 
