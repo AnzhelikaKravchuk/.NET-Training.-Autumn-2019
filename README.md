@@ -705,7 +705,7 @@
 - [101 LINQ Samples](https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b)
 
 #### <a name="13-Tasks"></a> Задачи
-1. Как альтернативу классу [EnumerableExtension](https://github.com/AnzhelikaKravchuk/23.04.2019.1/blob/master/PseudoEnumerable/EnumerableExtension.cs) создать класс [Enumerable](https://github.com/AnzhelikaKravchuk/15.10.2019.Workshop), в который добавить следующие методы расширения интерфеса `IEnumerable<T>`:
+1. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 16.10.2019, 24.00**) Как альтернативу классу [EnumerableExtension](https://github.com/AnzhelikaKravchuk/23.04.2019.1/blob/master/PseudoEnumerable/EnumerableExtension.cs) создать класс [Enumerable](https://github.com/AnzhelikaKravchuk/15.10.2019.Workshop), в который добавить следующие методы расширения интерфеса `IEnumerable<T>`:
   - методы для фильтрации Filter и трансформации Transform последовательности, использующие в качестве параметров соответсвующие версии типа делегат [`Func<T>`](https://docs.microsoft.com/en-us/dotnet/api/system.func-2?view=netframework-4.8);
   - метод SortBy, использующий стратегию сортировки по ключу (сортировка по возрастанию) (*не стратегию сравнения двух элементов!*);
   - метод SortBy, использующий стратегию сравнения двух ключей (сортировка по возрастанию);
@@ -719,7 +719,7 @@
   - метод Count для получения количества элементов последовательности.
 - Проверить работу разработанных методов, используя различные типы данных.
 
-2. **![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 20.10.2019, 24.00** Скачать архив [*LINQ - Sample Queries.zip*](https://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/tree/master/Day%2013.%2015.10.2019) демонстрационного приложения для изучения LINQ.
+2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 20.10.2019, 24.00**) Скачать архив [*LINQ - Sample Queries.zip*](https://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/tree/master/Day%2013.%2015.10.2019) демонстрационного приложения для изучения LINQ.
 
 - Запустить приложение (папка C#, SampleQueries.sln), изучить основные запросы LINQ to Object - **101 LINQ Query Samples** (код находится в классе *LinqSamples*).
  
