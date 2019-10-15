@@ -653,8 +653,7 @@
 - Имитация для специфичных значений (и генерация исключения)
 
 		mock.Setup(m => m.Calculate(It.Is<int>(v => v == 0))).Throws<System.ArgumentOutOfRangeException>();
-		mock.Setup(m => m.Calculate(It.Is<int>(v => v > 100))).Returns<int>(value => -value);
-		
+		mock.Setup(m => m.Calculate(It.Is<int>(v => v > 100))).Returns<int>(value => -value);		
 
 ---
 
@@ -669,8 +668,7 @@
    - *Chapter 17.* Delegates.
 - [Programming C# 5.0. Ian Griffiths. O'Reilly Media. 2012.](http://shop.oreilly.com/product/0636920024064.do) 
    - *Chapter 9.* Delegates, Lambdas and Events. [Download Example Code](https://resources.oreilly.com/examples/0636920024064/blob/master/Ch09.zip)
-- [CLR via C#. Jeffrey Richter. Microsoft Press. 2010](https://www.goodreads.com/book/show/7121415-clr-via-c)
-		
+- [CLR via C#. Jeffrey Richter. Microsoft Press. 2010](https://www.goodreads.com/book/show/7121415-clr-via-c)		
 
 ---
 
@@ -707,8 +705,18 @@
 - [101 LINQ Samples](https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b)
 
 #### <a name="13-Tasks"></a> Задачи
+1. Как альтернативу классу [EnumerableExtension](https://github.com/AnzhelikaKravchuk/23.04.2019.1/blob/master/PseudoEnumerable/EnumerableExtension.cs) создать класс [Enumerable](https://github.com/AnzhelikaKravchuk/15.10.2019.Workshop), в который добавить следующие методы расширения интерфеса `IEnumerable<T>`:
+  - методы для фильтрации и трансформации последовательности, использующие в качестве параметров соответсвующие версии типа делегат [`Func<T>`](https://docs.microsoft.com/en-us/dotnet/api/system.func-2?view=netframework-4.8);
+  - метод SortBy, использующий стратегию сортировки по ключу (сортировка по возрастанию) (*не стратегию сравнения двух элементов!*);
+  - метод SortBy, использующий стратегию сравнения двух ключей (сортировка по возрастанию);
+  - метод CastTo, получающий на основе последовательности нетипизированных элементов типизированную последовательность, при этом в случае невозможности приведения хотя бы одного элемента в последовательности, выбрасывается исключение InvalidCastException;
+  - метод ForAll, определяющий соответствие всех элементов последовательности заданному предикату;
+  - **метод SortByDescending, использующий стратегию сортировки по ключу (сортировка по убыванию);**
+  - **метод SortByDescending, использующий стратегию сравнения двух ключей (сортировка по убыванию);**
+  - **метод-генератор последовательности count целых чисел, начиная с некоторого целочисленного значения start.**
+- Проверить работу разработанных методов, используя различные типы данных.
 
-- Скачать архив *LINQ - Sample Queries.zip* демонстрационного приложения для изучения LINQ.
+2. **![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 20.10.2019, 24.00** Скачать архив *LINQ - Sample Queries.zip* демонстрационного приложения для изучения LINQ.
 
 - Запустить приложение (папка C#, SampleQueries.sln), изучить основные запросы LINQ to Object - **101 LINQ Query Samples** (код находится в классе *LinqSamples*).
  
