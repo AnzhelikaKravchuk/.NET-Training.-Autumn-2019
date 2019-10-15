@@ -685,7 +685,12 @@
    - *Chapter 9.* Delegates, Lambdas and Events. [Download Example Code](https://resources.oreilly.com/examples/0636920024064/blob/master/Ch09.zip)
 - [CLR via C#. Jeffrey Richter. Microsoft Press. 2010](https://www.goodreads.com/book/show/7121415-clr-via-c)
 
-#### <a name="12-Tasks"></a> Задачи				
+#### <a name="12-Tasks"></a> Задачи	
+1. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 16.10.2019, 24.00**) [Workshop](https://github.com/AnzhelikaKravchuk/14.10.2019.1)
+2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 16.10.2019, 24.00**) [Algorithms.V5)](xhttps://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/tree/master/Day%2012.%2014.10.2019) Некто L начал разработку библиотеки (проект *Algorithms.V5*) для алгебраических вычислений. Согласно требованию библиотека должна быть реализована как статический класс с удобными для использования для различного рода расчетов статическими методами, в частности, методами, реализующими подсчет НОД-а для двух, трех, четырех и т.д. целых чисел алгоритмом Евклида (Стайна), включая возможность подсчета времени вычислений.
+	Завершите разработку библиотеки, начатой L, добавив недостающий функционал, *не изменяя сигнутуры существующих в типах методов*.
+	
+	Какие класс (классы) необходимо будет изменить в случае, если появиться необходимость добавить реализацию еще одного алгоритма Евклида? обоснуйте целесообразность использования подхода, предложенного L, с точки зрения трудозатрат при добавлении такой функциональности. 
 
 ---
 
@@ -705,7 +710,7 @@
 - [101 LINQ Samples](https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b)
 
 #### <a name="13-Tasks"></a> Задачи
-1. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 16.10.2019, 24.00**) Как альтернативу классу [EnumerableExtension](https://github.com/AnzhelikaKravchuk/23.04.2019.1/blob/master/PseudoEnumerable/EnumerableExtension.cs) создать класс [Enumerable](https://github.com/AnzhelikaKravchuk/15.10.2019.Workshop), в который добавить следующие методы расширения интерфеса `IEnumerable<T>`:
+1. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 17.10.2019, 24.00**) Как альтернативу классу [EnumerableExtension](https://github.com/AnzhelikaKravchuk/23.04.2019.1/blob/master/PseudoEnumerable/EnumerableExtension.cs) создать класс [Enumerable](https://github.com/AnzhelikaKravchuk/15.10.2019.Workshop), в который добавить следующие методы расширения интерфеса `IEnumerable<T>`:
   - методы для фильтрации Filter и трансформации Transform последовательности, использующие в качестве параметров соответсвующие версии типа делегат [`Func<T>`](https://docs.microsoft.com/en-us/dotnet/api/system.func-2?view=netframework-4.8);
   - метод SortBy, использующий стратегию сортировки по ключу (сортировка по возрастанию) (*не стратегию сравнения двух элементов!*);
   - метод SortBy, использующий стратегию сравнения двух ключей (сортировка по возрастанию);
@@ -716,8 +721,9 @@
   - метод-генератор Range последовательности count целых чисел, начиная с некоторого целочисленного значения start;
   - метод Reverse для получения обратного порядка исходной последовательности;
   - метод Count для получения количества элементов последовательности, удовлеворяющих хаданному предикату;
-  - метод Count для получения количества элементов последовательности.
-- Проверить работу разработанных методов, используя различные типы данных.
+  - метод Count для получения количества элементов последовательности.   
+  
+  Проверить работу разработанных методов, используя различные типы данных.    
 
 2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 20.10.2019, 24.00**) Скачать архив [*LINQ - Sample Queries.zip*](https://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/tree/master/Day%2013.%2015.10.2019) демонстрационного приложения для изучения LINQ.
 
