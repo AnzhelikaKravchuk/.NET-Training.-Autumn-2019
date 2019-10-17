@@ -24,6 +24,7 @@
    - [Day 11. 08.10.2019](#11)
    - [Day 12. 14.10.2019](#12)
    - [Day 13. 15.10.2019](#13)
+   - [Day 14. 17.10.2019](#14)
 
 ---
 
@@ -756,3 +757,20 @@
 | 7 | Сгруппировать все товары по группам «дешевые», «средняя цена», «дорогие», определив границы каждой группы произвольным образом. |![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | 	
 | 8 | Рассчитать среднюю сумму заказа по всем клиентам из данного города и среднее количество заказов, приходящееся на клиента из каждого города. |![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |    	
 | 9 | Cоставить свои запросы (не менее 5) к наборам данных, описанных классами Product, Customer, Supplier, Order. |![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) |   
+
+[Up](#stages)
+
+### <a name="14"></a> Day 14. 17.10.2019
+
+#### <a name="14-Tasks"></a> Задачи	
+1. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - **) Разработать обобщенный класс-коллекцию BinarySearchTree (бинарное дерево поиска). Предусмотреть возможности использования подключаемого интерфейса для реализации отношения порядка. Реализовать три способа обхода дерева: прямой (preorder), поперечный (inorder), обратный (postorder): для реализации обходов использовать блок-итератор (yield). Протестировать разработанный класс, используя следующие типы:
+  - System.Int32 (использовать сравнение по умолчанию и подключаемый компаратор);
+  - System.String (использовать сравнение по умолчанию и подключаемый компаратор);
+  - пользовательский класс Book, для объектов которого реализовано отношения порядка (использовать сравнение по умолчанию и подключаемый компаратор);
+  - пользовательскую структуру Point, для объектов которого не реализовано отношения порядка (использовать подключаемый компаратор).
+	
+| Task | Solution Status | Solution Link | NUnit Tests Status | NUnit Tests Link | Additional/Comments |
+| -------- | -------- | --------| --------|  -------- |  -------- |   
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*NUnit Tests*](#) 
+
+---
