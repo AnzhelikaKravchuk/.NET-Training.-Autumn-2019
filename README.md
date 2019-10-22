@@ -774,3 +774,154 @@
 | 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*NUnit Tests*](#) 
 
 ---
+
+[Up](#stages)
+
+### <a name="15"></a> Day 15. 21.10.2019 (Workshop)  
+#### Материалы   
+
+- [Delegates. Lambdas and Events](https://github.com/EPM-RD-NETLAB/.NET-Framework-modules/tree/master/M9.%20Delegates.%20Lambdas%20and%20Events)   
+- Паттерны проетирования на платформе .NET. Сергей Тепляков.Глава 5. Паттерн "Наблюдатель". [можно найти здесь](https://drive.google.com/drive/folders/0B7WmjuqYed3ARTMxLUpWU0tKazQ)    
+
+#### <a name="15-Tasks"></a> Задачи
+1. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - **)  [Workshop]().
+2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - **)  Метеостанция WeatherStation работает на базе запатентовнного объекта WeatherData, отслеживающего текущие погодные условия (температура (Temperature), влажность (Humidity), атмосферное давление (Pressure)). 
+  - Разработать систему классов для создания текущей сводки (CurrentConditionsReport) и статистики (StatisticReport). Все данные должны обновляться в режиме реального времени, по мере того, как объект WeatherData получает данные последних изменений.
+  - Предложить два варианта решения (интерфейсы + event).
+  - Смоделировать работу метеостанции в консольном приложении.
+
+2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - **) Разработать класс для имитации часов с обратным отсчетом (только через event), реализующий возможность по истечении назначенного времени (время ожидания предоставляется классу пользователем) передавать сообщение и дополнительную информацию о событии любому подписавшемуся на событие типу.
+  Продемонстрировать работу класса в консольном приложении.
+
+| Task | Solution Status | Solution Link | NUnit Tests Status | NUnit Tests Link | Additional/Comments |
+| -------- | -------- | --------| --------|  -------- |  -------- |   
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Console*](#)   
+| 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Console*](#)
+
+---
+
+[Up](#stages)
+
+### <a name="16"></a> Day 16. 22.10.2019 
+#### Материалы
+
+- [C# 6.0 in a Nutshell. Joseph Albahari, Ben Albahari. O'Reilly Media. 2015.](http://shop.oreilly.com/product/0636920040323.do)
+   - *Chapter 6.* Framework Fundamentals. [Code Listing](http://www.albahari.com/nutshell/ch06.aspx)
+- [CLR via C#. Jeffrey Richter. Microsoft Press. 2010](https://www.goodreads.com/book/show/7121415-clr-via-c)
+   - *Chapter 14.* Chars, Strings, and Working with Text.
+
+#### Encoding
+- [Юникод и .NET](https://m.habr.com/ru/post/193048/) - **обязательна к прочтению!**
+
+#### String
+- [Referencesource.String](https://referencesource.microsoft.com/#mscorlib/system/string.cs,8281103e6f23cb5c)
+- [Особенности строк в .NET](https://habr.com/ru/post/172627/) - **обязательна к прочтению!**
+- [New Recommendations for Using Strings in Microsoft .NET 2.0](https://docs.microsoft.com/en-us/previous-versions/dotnet/articles/ms973919(v=msdn.10))
+- [String.Intern делает строки ещё интереснее](https://habr.com/ru/post/224281/)
+- [Строки в C# и .NET](https://habr.com/ru/post/165597/)
+- [Строки, неизменяемость и персистентность. Невероятные приключения в коде. Перевод блога Эрика Липперта](https://blogs.msdn.microsoft.com/ruericlippert/2011/08/08/653/)
+
+#### StringBuilder
+- [StringBuilder прошлое и настоящее](https://habr.com/ru/post/172689/) - **обязательна к прочтению!**
+- [Referencesource.StringBuilder](https://referencesource.microsoft.com/#mscorlib/system/text/stringbuilder.cs,adf60ee46ebd299f)
+
+
+#### <a name="16-Tasks"></a> Задачи
+1.  (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - **) Реализовать метод, который принимает на вход строку **source** и количество итераций **count** (проект *StringExtension*).
+
+          public string Convert(string source, int count)
+
+  На каждой итерации метода объединяются нечетные символы строки и переносятся в ее начало, и четные символы, которые переносяться в конец.
+  
+  > Пример (строка «Привет Епам!»): 
+  >    
+  > 1 итерация:  «Пие пмрвтЕа!»    
+  > 2 итерация: «Пепртаи мвЕ!»    
+  > ...
+
+   Результат работы метода – результат склеек символов через count итераций.
+
+   При реализации алгоритма учесть, что входная строка может содержать очень большое количество символов, а количество итераций может быть огромным. Оптимизировать код с точки зрения быстродействия и потребления ресурсов.
+
+   Проверить аргументы на валидность:
+   - Запрещается передавать пустые строки, строки из пробелов, null.
+   - Количество итераций должно быть больше 0.
+
+   При нарушении этих условий метод генерирует исключение.
+
+   Проверить работу метода с помощью модульных тестов (проект *StringExtension.Tests*), **к предложенным тест кейсам добавить дополнительные**.
+   
+   Проверить возможность работы разработанного метода с большими строками и большим количеством итераций (проект *StringExtensionWithFiles*), замерить время счета.
+   
+2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - **) Для объектов класса Book, у которого есть свойства Title, Author, Year, PublishingHous, Edition, Pages и Price (за основу можно взять класс, разработанный ранее) реализовать
+возможность строкового представления различного вида. Например, для объекта со значениями
+    Title = "C# in Depth", 
+    Author = "Jon Skeet", 
+    Year = 2019, 
+    PublishingHous = "Manning", 
+    Edition = 4, 
+    Pages = 900, 
+    Price = 40$.
+могут быть следующие варианты:
+ - Book record: Jon Skeet, C# in Depth, 2019, "Manning", 
+ - Book record: Jon Skeet, C# in Depth, 2019
+ - Book record: Jon Skeet, C# in Depth
+ - Book record: C# in Depth, 2019, "Manning"
+ - Book record: C# in Depth и т.д.
+ 
+Разработать модульные тесты.
+
+3. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - **) Не изменяя класс Book, добавить для объектов данного класса дополнительную (любую не существующую у класса изначально) возможность 
+форматирования, не предусмотренную классом. Разработать модульные тесты.
+
+4. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - **) Реализовать решение задачи [Day 6. 26.09.2019. Task 2](https://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/blob/master/README.md#-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8-4) в виде дополнительной возможности форматного вывода вещественного числа. Разработать модульные тесты.
+
+	
+| Task | Solution Status | Solution Link | NUnit Tests Status | NUnit Tests Link | Additional/Comments |
+| -------- | -------- | --------| --------|  -------- |  -------- |   
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*NUnit Tests*](#)   
+| 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*NUnit Tests*](#)   
+| 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*NUnit Tests*](#) 
+| 4 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*NUnit Tests*](#) 
+
+---
+
+[Up](#stages)
+
+### <a name="17"></a> Day 17. 24.10.2019 
+#### Материалы
+
+- [C# 6.0 in a Nutshell. Joseph Albahari, Ben Albahari. O'Reilly Media. 2015.](http://shop.oreilly.com/product/0636920040323.do)
+   - *Chapter 15.* Streams and I/O [Code Listings](http://www.albahari.com/nutshell/cs5ch15.aspx)
+- [C# 5.0 Unleashed. Bart De Smet. Sams Publishing. 2013.](https://www.goodreads.com/book/show/16284093-c-5-0-unleashed)
+   - *Chapter 28.* Working with I/O 
+- [Programming C# 5.0. Ian Griffiths. O'Reilly Media. 2012.](http://shop.oreilly.com/product/0636920024064.do)
+   - *Chapter 16.* Files and Streams [Download Example Code](https://resources.oreilly.com/examples/0636920024064/blob/master/Ch16.zip)
+- [*Пространство имен System.IO*](https://msdn.microsoft.com/ru-ru/library/system.io(v=vs.110).aspx)
+
+#### <a name="17-Tasks"></a> Задачи
+1. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - **)  Разработать класс, предоставляющий следующие функциональные возможности: 
+      - функцию побайтового копирования содержимого одного тествового файла в другой с использованием класса FileStream в качестве потока с резервным хранилищем; функция должна возвращать количество записанных байт;
+      - функцию побайтового копирования содержимого одного тествового файла в другой с использованием класса MemoryStream в качестве потока с резервным хранилищем; функция должна возвращать количество записанных байт; содержимое потока MemoryStream наполняется массивом байт, полученных на основе текстовой информации из файла-источника с помощью класса StreamReader;
+      - функцию копирования содержимого одного тествового файла в другой, используя возможности буферизации класса FileStream, функция должна возвращать количество записанных байт;
+      - функцию копирования содержимого одного тествового файла в другой, используя возможности класса-декоратора потоков BufferedStream, функция должна возвращать количество записанных байт;
+      - функцию копирования содержимого одного тествового файла в другой с использованием класса MemoryStream в качестве потока с резервным хранилищем; функция должна возвращать количество записанных байт; 
+      - функцию построчного копирования содержимого одного тествового файла в другой, функция должна возвращать количество записанных строк;
+      - функцию сравнения содержимого исходного и полученного файлов.
+
+	Протестировать работу класса для данного текстового [*SourceText.txt*](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Days%2020-21%20-%2002.05.2019/SourceText.txt) в консоли, обратить внимание на содержимое файлов, полученных при копировании с помощью различных методов класса. Результаты проанализировать.   
+	
+	Проанализировать основные возможности потоков (CanRead, CanSeek, CanTimeout, CanWrite...).   
+	
+	Для выполнения задания использовать следующий [проект Streams.zip]().   
+	  
+2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - **)  Реализовать функциональность, обозначенную в методах класса *IOStreamTask* проекта [Streams.2.zip](). Проверить работу реализованной функциональности для предлагаемых в проекте тестов.
+
+
+| Task | Solution Status | Solution Link | NUnit Tests Status | NUnit Tests Link | Additional/Comments |
+| -------- | -------- | --------| --------|  -------- |  -------- |   
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Console*](#)   
+| 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Console*](#)
+
+
+
