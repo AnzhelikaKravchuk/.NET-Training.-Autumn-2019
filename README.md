@@ -25,6 +25,9 @@
    - [Day 12. 14.10.2019](#12)
    - [Day 13. 15.10.2019](#13)
    - [Day 14. 17.10.2019](#14)
+   - [Day 15. 21.10.2019](#15)
+   - [Day 16. 22.10.2019](#16)
+   - [Day 17. 22.10.2019](#17)
 
 ---
 
@@ -784,19 +787,19 @@
 - Паттерны проетирования на платформе .NET. Сергей Тепляков.Глава 5. Паттерн "Наблюдатель". [можно найти здесь](https://drive.google.com/drive/folders/0B7WmjuqYed3ARTMxLUpWU0tKazQ)    
 
 #### <a name="15-Tasks"></a> Задачи
-1. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - **)  [Workshop]().
-2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - **)  Метеостанция WeatherStation работает на базе запатентовнного объекта WeatherData, отслеживающего текущие погодные условия (температура (Temperature), влажность (Humidity), атмосферное давление (Pressure)). 
+1. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 24.10.2019, 24.00**)  [Workshop](https://github.com/AnzhelikaKravchuk/PatternObserver).
+2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 24.10.2019, 24.00**)  Метеостанция WeatherStation работает на базе запатентовнного объекта WeatherData, отслеживающего текущие погодные условия (температура (Temperature), влажность (Humidity), атмосферное давление (Pressure)). 
   - Разработать систему классов для создания текущей сводки (CurrentConditionsReport) и статистики (StatisticReport). Все данные должны обновляться в режиме реального времени, по мере того, как объект WeatherData получает данные последних изменений.
   - Предложить два варианта решения (интерфейсы + event).
   - Смоделировать работу метеостанции в консольном приложении.
-
-2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - **) Разработать класс для имитации часов с обратным отсчетом (только через event), реализующий возможность по истечении назначенного времени (время ожидания предоставляется классу пользователем) передавать сообщение и дополнительную информацию о событии любому подписавшемуся на событие типу.
+3. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 24.10.2019, 24.00**) Разработать класс для имитации часов с обратным отсчетом (только через event), реализующий возможность по истечении назначенного времени (время ожидания предоставляется классу пользователем) передавать сообщение и дополнительную информацию о событии любому подписавшемуся на событие типу.
   Продемонстрировать работу класса в консольном приложении.
 
 | Task | Solution Status | Solution Link | NUnit Tests Status | NUnit Tests Link | Additional/Comments |
 | -------- | -------- | --------| --------|  -------- |  -------- |   
 | 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Console*](#)   
 | 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Console*](#)
+| 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Console*](#)
 
 ---
 
@@ -833,10 +836,10 @@
 
   На каждой итерации метода объединяются нечетные символы строки и переносятся в ее начало, и четные символы, которые переносяться в конец.
   
-  > Пример (строка «Привет Епам!»): 
+  > Пример (строка «Привет Эпам!»): 
   >    
-  > 1 итерация:  «Пие пмрвтЕа!»    
-  > 2 итерация: «Пепртаи мвЕ!»    
+  > 1 итерация:  «Пие пмрвтЭа!»    
+  > 2 итерация: «Пепртаи мвЭ!»    
   > ...
 
    Результат работы метода – результат склеек символов через count итераций.
@@ -853,7 +856,7 @@
    
    Проверить возможность работы разработанного метода с большими строками и большим количеством итераций (проект *StringExtensionWithFiles*), замерить время счета.
    
-2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - **) Для объектов класса Book, у которого есть свойства Title, Author, Year, PublishingHous, Edition, Pages и Price (за основу можно взять класс, разработанный ранее) реализовать
+2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 26.10.2019, 24.00**) Для объектов класса Book, у которого есть свойства Title, Author, Year, PublishingHous, Edition, Pages и Price (за основу можно взять класс, разработанный ранее) реализовать
 возможность строкового представления различного вида. Например, для объекта со значениями
     Title = "C# in Depth", 
     Author = "Jon Skeet", 
@@ -871,16 +874,16 @@
  
 Разработать модульные тесты.
 
-3. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - **) Не изменяя класс Book, добавить для объектов данного класса дополнительную (любую не существующую у класса изначально) возможность 
+3. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 26.10.2019, 24.00**) Не изменяя класс Book, добавить для объектов данного класса дополнительную (любую не существующую у класса изначально) возможность 
 форматирования, не предусмотренную классом. Разработать модульные тесты.
 
-4. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - **) Реализовать решение задачи [Day 6. 26.09.2019. Task 2](https://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/blob/master/README.md#-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8-4) в виде дополнительной возможности форматного вывода вещественного числа. Разработать модульные тесты.
+4. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - 26.10.2019, 24.00**) Реализовать решение задачи [Day 6. 26.09.2019. Task 2](https://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/blob/master/README.md#-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8-4) в виде дополнительной возможности форматного вывода вещественного числа. Разработать модульные тесты.
 
 	
 | Task | Solution Status | Solution Link | NUnit Tests Status | NUnit Tests Link | Additional/Comments |
 | -------- | -------- | --------| --------|  -------- |  -------- |   
-| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*NUnit Tests*](#)   
-| 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*NUnit Tests*](#)   
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*NUnit Tests*](#) 
+| 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*NUnit Tests*](#) 
 | 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*NUnit Tests*](#) 
 | 4 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*NUnit Tests*](#) 
 
@@ -909,7 +912,7 @@
       - функцию построчного копирования содержимого одного тествового файла в другой, функция должна возвращать количество записанных строк;
       - функцию сравнения содержимого исходного и полученного файлов.
 
-	Протестировать работу класса для данного текстового [*SourceText.txt*](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Days%2020-21%20-%2002.05.2019/SourceText.txt) в консоли, обратить внимание на содержимое файлов, полученных при копировании с помощью различных методов класса. Результаты проанализировать.   
+	Протестировать работу класса для данного текстового [*SourceText.txt*]() в консоли, обратить внимание на содержимое файлов, полученных при копировании с помощью различных методов класса. Результаты проанализировать.   
 	
 	Проанализировать основные возможности потоков (CanRead, CanSeek, CanTimeout, CanWrite...).   
 	
@@ -917,11 +920,7 @@
 	  
 2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - **)  Реализовать функциональность, обозначенную в методах класса *IOStreamTask* проекта [Streams.2.zip](). Проверить работу реализованной функциональности для предлагаемых в проекте тестов.
 
-
 | Task | Solution Status | Solution Link | NUnit Tests Status | NUnit Tests Link | Additional/Comments |
 | -------- | -------- | --------| --------|  -------- |  -------- |   
 | 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Console*](#)   
 | 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Console*](#)
-
-
-
