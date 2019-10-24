@@ -893,6 +893,12 @@
 
 ### <a name="17"></a> Day 17. 24.10.2019 
 #### Материалы
+---
+
+[Up](#stages)
+
+### <a name="18"></a> Day 18. 28.10.2019 (Workshop)
+#### Материалы
 
 - [C# 6.0 in a Nutshell. Joseph Albahari, Ben Albahari. O'Reilly Media. 2015.](http://shop.oreilly.com/product/0636920040323.do)
    - *Chapter 15.* Streams and I/O [Code Listings](http://www.albahari.com/nutshell/cs5ch15.aspx)
