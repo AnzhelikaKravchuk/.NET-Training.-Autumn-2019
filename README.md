@@ -831,7 +831,7 @@
 
 
 #### <a name="16-Tasks"></a> Задачи
-1.  (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - *26.10.2019, 24.00*) Реализовать метод, который принимает на вход строку **source** и количество итераций **count** (проект *StringExtension*).
+1.  (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - *31.10.2019, 24.00*) Реализовать метод, который принимает на вход строку **source** и количество итераций **count** (проект *StringExtension*).
 
           public string Convert(string source, int count)
 
@@ -924,7 +924,7 @@
 - [*Пространство имен System.IO*](https://msdn.microsoft.com/ru-ru/library/system.io(v=vs.110).aspx)
 
 #### <a name="17-Tasks"></a> Задачи
-1. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - *26.10.2019, 24.00*)  Разработать класс, предоставляющий следующие функциональные возможности: 
+1. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - *31.10.2019, 24.00*)  Разработать класс, предоставляющий следующие функциональные возможности: 
       - функцию побайтового копирования содержимого одного тествового файла в другой с использованием класса FileStream в качестве потока с резервным хранилищем; функция должна возвращать количество записанных байт;
       - функцию побайтового копирования содержимого одного тествового файла в другой с использованием класса MemoryStream в качестве потока с резервным хранилищем; функция должна возвращать количество записанных байт; содержимое потока MemoryStream наполняется массивом байт, полученных на основе текстовой информации из файла-источника с помощью класса StreamReader;
       - функцию копирования содержимого одного тествового файла в другой, используя возможности буферизации класса FileStream, функция должна возвращать количество записанных байт;
@@ -939,7 +939,7 @@
 	
 	Для выполнения задания использовать следующий [проект Streams.zip]().   
 	  
-2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - *26.10.2019, 24.00*)  Реализовать функциональность, обозначенную в методах класса *StreamTask* проекта [Streams.2.zip](https://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/tree/master/Day%2018.%2028.10.2019). Проверить работу реализованной функциональности для предлагаемых в проекте тестов.
+2. (**![deadline](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons8-stopwatch-64.png) - *31.10.2019, 24.00*)  Реализовать функциональность, обозначенную в методах класса *StreamTask* проекта [Streams.2.zip](https://github.com/AnzhelikaKravchuk/.NET-Training.-Autumn-2019/tree/master/Day%2018.%2028.10.2019). Проверить работу реализованной функциональности для предлагаемых в проекте тестов.
 
 | Task | Solution Status | Solution Link | NUnit Tests Status | NUnit Tests Link | Additional/Comments |
 | -------- | -------- | --------| --------|  -------- |  -------- |   
