@@ -28,7 +28,8 @@
    - [Day 15. 21.10.2019](#15)
    - [Day 16. 22.10.2019](#16)
    - [Day 17. 24.10.2019](#17)
-   - [Day 18. 28.10.2019](#17)
+   - [Day 18. 28.10.2019](#18)
+   - [Day 19. 31.10.2019](#19)
 
 ---
 
@@ -945,3 +946,10 @@
 | -------- | -------- | --------| --------|  -------- |  -------- |   
 | 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Console*](#)   
 | 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Solution*](#) | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) | [*Console*](#)
+
+---
+
+[Up](#stages)
+
+### <a name="19"></a> Day 19. 31.10.2019
+#### [Basic XML. Serialization](https://canvas.instructure.com/courses/1748654/pages/basic-xml?module_item_id=26505883)
