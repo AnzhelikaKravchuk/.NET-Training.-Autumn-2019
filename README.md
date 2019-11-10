@@ -953,3 +953,7 @@
 
 ### <a name="19"></a> Day 19. 31.10.2019
 #### [Basic XML. Serialization](https://canvas.instructure.com/courses/1748654/pages/basic-xml?module_item_id=26505883)
+
+#### [ADO.NET]()
+- [Документация по Entity Framework](https://docs.microsoft.com/ru-ru/ef/)
+- [Начало работы с EF Core](https://docs.microsoft.com/ru-ru/ef/core/get-started/?tabs=netcore-cli)
