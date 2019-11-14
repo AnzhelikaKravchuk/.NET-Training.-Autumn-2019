@@ -954,6 +954,17 @@
 ### <a name="19"></a> Day 19. 31.10.2019
 #### [Basic XML. Serialization](https://canvas.instructure.com/courses/1748654/pages/basic-xml?module_item_id=26505883)
 
-#### [ADO.NET]()
-- [Документация по Entity Framework](https://docs.microsoft.com/ru-ru/ef/)
-- [Начало работы с EF Core](https://docs.microsoft.com/ru-ru/ef/core/get-started/?tabs=netcore-cli)
+### <a name="20"></a> Day 20. 04.11.2019
+#### [Object Oriented Design Principles](https://canvas.instructure.com/courses/1748654/pages/object-oriented-design-principles)
+
+### <a name="21"></a> Day 21. 05.11.2019
+#### [Object Oriented Design Principles](https://canvas.instructure.com/courses/1748654/pages/object-oriented-design-principles)
+
+### <a name="22"></a> Day 22. 11.11.2019
+#### [ADO.NET. ADO.NET EF](https://canvas.instructure.com/courses/1748654/pages/ado-dot-net-ado-dot-net-ef)
+
+### <a name="23"></a> Day 23. 12.11.2019
+#### [ADO.NET. ADO.NET EF](https://canvas.instructure.com/courses/1748654/pages/ado-dot-net-ado-dot-net-ef)
+
+### <a name="24"></a> Day 24. 14.11.2019
+#### [Web introduction. ASP.NET introduction](https://canvas.instructure.com/courses/1748654/pages/web-introduction)
